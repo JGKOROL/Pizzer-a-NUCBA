@@ -1,119 +1,171 @@
-body{
-    background-color: #252525;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: ; */
 }
 
-.home{
-
+body {
+  background-color: #252525;
 }
 
-.carry{
-
+.home {
 }
 
-.login{
-
+.carry {
 }
 
-.section-1{
-
+.login {
 }
 
-.section-1-buscador{
+/*.section-1 {
+  /* width: 90%;
+  height: 300px;
+  display: flex;
+  flex-direction: column-reverse;
+} */
 
+.section-1-buscador {
+    display: inline-block;
+  position: absolute;
+  width: 40%;
+  height: 199px;
+  left: 103px;
+  top: 235px;
+  
+  /* or 67px */
+
+  color: #ffffff;
 }
 
-.section-1-buscador-h2{
-
+.section-1-buscador-h2 {
+    display: inline-block;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 51px;
+  line-height: 131.02%;
+  color: #ffffff;
 }
 
-.section-1-buscador-input{
+.section-1-buscador-input {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+  box-sizing: border-box;
 
+  position: absolute;
+  left: 7.67%;
+  right: 66.01%;
+  top: 18.05%;
+  bottom: 79.3%;
+
+  background: #ffffff;
+  opacity: 0.1;
+  border: 1px solid #f4f4f4;
+  box-shadow: 12px 26px 50px rgba(90, 108, 234, 0.07);
+  border-radius: 15px;
 }
 
-.section-1-buscador-button{
+.section-1-buscador-button {
+position: absolute;
+height: 14px;
+left: 38.03%;
+right: 54.17%;
+top: calc(50% - 14px/2 - 578.5px);
 
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+letter-spacing: 0.5px;
+
+color: #FEFEFF;
 }
 
-.section-1-pizzas{
+/*.section-1-pizzas {
+    width: 30%;
+    height: 20vh;
+    align-content: flex-end;
+} */
 
+.pizza-1 {
+align-content:flex-end;
+position: absolute;
+width: 10vw;
+height: 10vh;
+margin-left: 70%;
+margin-right: 0%;
+left: 920px;
+top: 208px;
+
+background: url(image.png);
 }
 
-.pizza-1{
+.pizza-2 {
+position: absolute;
+width: 12vw;
+height: 20vh;
+left: 90%; /*1046px;*/
+top: 30%;/*94px;*/
+margin-left: 70%;
+margin-right: 5%;
 
+background: url(pizza.png);
 }
 
-.pizza-2{
-
+.section-2 {
 }
 
-.section-2{
-
+.section-2-h2 {
 }
 
-.section-2-h2{
-
+.section-2-recomendados-1 {
 }
 
-.section-2-recomendados-1{
-
+.Bennazianna {
 }
 
-.Bennazianna{
-
+.section-2-recomendados-2 {
 }
 
-.section-2-recomendados-2{
-
+.Tronco-Pizza {
 }
 
-.Tronco-Pizza{
-
+.section-2-recomendados-3 {
 }
 
-.section-2-recomendados-3{
-
+.Papas-Provenzal {
 }
 
-.Papas-Provenzal{
-
+.section-3 {
 }
 
-.section-3{
-
+.section-3-h2 {
 }
 
-.section-3-h2{
-
+.section-3-categorías {
 }
 
-.section-3-categorías{
-
+.section-3-pizzas {
 }
 
-.section-3-pizzas{
-
+.section-3-Hamburguesas {
 }
 
-.section-3-Hamburguesas{
-
+.section-3-Napapuki {
 }
 
-.section-3-Napapuki{
-
+.section-3-Individuales {
 }
 
-.section-3-Individuales{
-
+.section-3-Wraps {
 }
 
-.section-3-Wraps{
-
+.section-3-Mexican-Food {
 }
 
-.section-3-Mexican-Food{
-
-}
-
-.section-3-Batidukis{
-    
+.section-3-Batidukis {
 }
