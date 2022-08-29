@@ -18,28 +18,26 @@ body {
 .login {
 }
 
-/*.section-1 {
-  /* width: 90%;
+.section-1 {
+  width: 90%;
   height: 300px;
   display: flex;
   flex-direction: column-reverse;
-} */
+}
 
 .section-1-buscador {
-    display: inline-block;
+  display: inline-block;
   position: absolute;
   width: 40%;
   height: 199px;
   left: 103px;
   top: 235px;
-  
-  /* or 67px */
-
+  align-content: flex-start;
   color: #ffffff;
 }
 
 .section-1-buscador-h2 {
-    display: inline-block;
+  display: inline-block;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
@@ -49,17 +47,19 @@ body {
 }
 
 .section-1-buscador-input {
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
+  width: 50%;
+  height: 60px;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
   box-sizing: border-box;
-
   position: absolute;
-  left: 7.67%;
-  right: 66.01%;
+  left: 1.67%;
+  right: 56.01%;
   top: 18.05%;
   bottom: 79.3%;
-
+  margin-top: 5%;
+  padding-bottom: 5%;
   background: #ffffff;
   opacity: 0.1;
   border: 1px solid #f4f4f4;
@@ -68,52 +68,54 @@ body {
 }
 
 .section-1-buscador-button {
-position: absolute;
-height: 14px;
-left: 38.03%;
-right: 54.17%;
-top: calc(50% - 14px/2 - 578.5px);
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 17px;
-text-align: center;
-letter-spacing: 0.5px;
-
-color: #FEFEFF;
+  position: absolute;
+  height: 14px;
+  left: 38.03%;
+  right: 54.17%;
+  top: calc(50% - 14px / 2 - 578.5px);
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #fefeff;
 }
 
-/*.section-1-pizzas {
-    width: 30%;
-    height: 20vh;
-    align-content: flex-end;
-} */
+.section-1-img-pizzas {
+  width: 30%;
+  height: 20vh;
+  align-content: space-around;
+}
 
 .pizza-1 {
-align-content:flex-end;
-position: absolute;
-width: 10vw;
-height: 10vh;
-margin-left: 70%;
-margin-right: 0%;
-left: 920px;
-top: 208px;
-
-background: url(image.png);
+  width: 30vw;
+  height: 30vh;
+  margin-left: 260px;
+  margin-right: 20vw;
+  margin-bottom: 20%;
+  left: 48.5vw;
+  top: 5vh;
+  position: absolute;
+  display: flex;
+  flex-wrap: nowrap;
+  background: url(image.png);
+  justify-content: flex-end;
 }
 
 .pizza-2 {
-position: absolute;
-width: 12vw;
-height: 20vh;
-left: 90%; /*1046px;*/
-top: 30%;/*94px;*/
-margin-left: 70%;
-margin-right: 5%;
-
-background: url(pizza.png);
+  width: 30vw;
+  height: 30vh;
+  left: 35vw; /*1046px;*/
+  top: 5vh; /*94px;*/
+  margin-left: 80%;
+  margin-right: 0px;
+  position: absolute;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  background: url(pizza.png);
 }
 
 .section-2 {
