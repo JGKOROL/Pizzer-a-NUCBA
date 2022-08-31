@@ -3,13 +3,18 @@
   padding: 0;
   box-sizing: border-box;
   /* font-family: ; */
-  color: #ffffff;
+  color:#fafafa;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 body {
   background-color: #131415;
+  box-shadow: 0px 48px 128px rgba(0, 0, 0, 0.4);
+  /*131415;*/
 }
-
 header {
   display: flex;
   justify-content: space-between;
@@ -18,23 +23,17 @@ header {
   padding: 10px;
 
 }
-
 nav {
   width: 200px;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-
 .div-home {
   width: 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.section-1 {
-  width: 90%;
 }
 .div-header {
   display: flex;
@@ -57,17 +56,19 @@ nav {
   font-size: 16px;
   line-height: 131.02%;
 }
-
-.home {}
-
-.carry {}
-
-.login {}
-
+.carry{
+  width: 20px;
+  height: 20px;
+  align-content: center;
+}
+.login{
+  width: 20px;
+  height: 20px;
+  align-content: center;
+}
 .section-1 {
-   width: 90%;
-
-  height: 300px;
+  width: 90%;
+  height: 350px;
   display: flex;
   flex-direction: column-reverse;
 }
@@ -94,11 +95,8 @@ nav {
 }
 
 .section-1-buscador-input {
-
   width: 50%;
   height: 60px;
-
-
   display: inline-block;
   align-items: center;
   justify-content: center;
@@ -110,39 +108,47 @@ nav {
   bottom: 79.3%;
   margin-top: 5%;
   padding-bottom: 5%;
-  background: #ffffff;
+  background: #252525;
+  color:#f4f4f4;
   opacity: 0.1;
   border: 1px solid #f4f4f4;
   box-shadow: 12px 26px 50px rgba(90, 108, 234, 0.07);
   border-radius: 15px;
 }
 
-.section-1-buscador-button {
+.section-1-button {
   position: absolute;
-  height: 14px;
-  left: 38.03%;
-  right: 54.17%;
-
-  top: calc(50% - 14px / 2 - 578.5px);
+  width: 200px;
+  height: 50px;
+  /*left: 38.03%;
+  right: 54.17%; */
+  margin-top: 12.5vh;
+  margin-left: 1px;
+  margin-right: 1px;
+  /*  top: calc(50% - 14px / 2 - 578.5px); */
   font-family: "Montserrat";
-
-  top: calc(50% - 14px/2 - 578.5px);
-
-  font-family: 'Montserrat';
-
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 17px;
   text-align: center;
   letter-spacing: 0.5px;
+        
+    background-image: linear-gradient(to right, #fe8c00 0%, #f83600  51%, #fe8c00  100%);
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 17.5px;
+    display:inline-block;  
+  }
 
-  color: #fefeff;
-
-
-  color: #FEFEFF;
-
-}
+  .section-1-button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+  
 
 .section-1-img-pizzas {
   width: 30%;
@@ -166,8 +172,8 @@ nav {
 }
 
 .pizza-2 {
-  width: 30vw;
-  height: 30vh;
+  width: 40vw;
+  height: 40vh;
   left: 35vw; /*1046px;*/
   top: 5vh; /*94px;*/
   margin-left: 80%;
@@ -176,65 +182,61 @@ nav {
   display: flex;
   flex-wrap: nowrap;
   justify-content: flex-end;
-
-  align-content: flex-end;
-  position: absolute;
-  width: 10vw;
-  height: 10vh;
-  margin-left: 70%;
-  margin-right: 0%;
-  left: 920px;
-  top: 208px;
-
-  background: url(image.png);
-}
-
-.pizza-2 {
-  position: absolute;
-  width: 12vw;
-  height: 20vh;
-  left: 90%;
-  /*1046px;*/
-  top: 30%;
-  /*94px;*/
-  margin-left: 70%;
-  margin-right: 5%;
-
   background: url(pizza.png);
 }
 
-.section-2 {}
+.section-2 {
+  width: 80%;
+  height: 30%;
+}
 
-.section-2-h2 {}
+.section-2-h2 {
+}
 
-.section-2-recomendados-1 {}
+.section-2-recomendados-1 {
+}
 
-.Bennazianna {}
+.Bennazianna {
+}
 
-.section-2-recomendados-2 {}
+.section-2-recomendados-2 {
+}
 
-.Tronco-Pizza {}
+.Tronco-Pizza {
+}
 
-.section-2-recomendados-3 {}
+.section-2-recomendados-3 {
+}
 
-.Papas-Provenzal {}
+.Papas-Provenzal {
+}
 
-.section-3 {}
+.section-3 {
+}
 
-.section-3-h2 {}
+.section-3-h2 {
+}
 
-.section-3-categorías {}
+.section-3-categorías {
+}
 
-.section-3-pizzas {}
+.section-3-pizzas {
+}
 
-.section-3-Hamburguesas {}
+.section-3-Hamburguesas {
+}
 
-.section-3-Napapuki {}
+.section-3-Napapuki {
+}
 
-.section-3-Individuales {}
+.section-3-Individuales {
+}
 
-.section-3-Wraps {}
+.section-3-Wraps {
+}
 
-.section-3-Mexican-Food {}
+.section-3-Mexican-Food {
+}
 
-.section-3-Batidukis {}
+.section-3-Batidukis {
+}
