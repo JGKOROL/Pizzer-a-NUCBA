@@ -4,7 +4,7 @@
   box-sizing: border-box;
   /* font-family: ; */
   color: #fafafa;
-  font-family: "Montserrat";
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -80,7 +80,24 @@ nav {
 
 
 .section-1-div-h1 {
-  width: 40%;
+
+/* Tiiitle Text */
+position: absolute;
+width: 603px;
+height: 93px;
+left: 127px;
+top: 180px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 66px;
+line-height: 131.02%;
+/* or 86px */
+color: #FFFFFF;
+
+/*  HECHO POR JOHNY */
+/*  width: 40%;
   height: auto;
   left: 103px;
   top: 160px;
@@ -92,60 +109,126 @@ nav {
   box-sizing: border-box;
   color: #fafafa;
   font-size: 66px;
+  font-weight: 700;*/
 }
 
 .section-1-div-h2 {
+
+/* Tiiitle Text */
+  position: absolute;
+  width: 639px;
+  height: 118px;
+  left: 127px;
+  top: 265px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 51px;
+  line-height: 131.02%;
+  /* or 67px */
+  color: #FFFFFF;
+
+/*  BORRAR LINEA PARA REESTABLECER
+  height: 118px;
+  width: 639px;
+  left: 127px;
+  top: 265px;
+  border-radius: nullpx;
+
   left: 103px;
   /*top: 235px; */
+/* BORRAR LINEA PARA REESTABLECER
   font-size: 16px;
   line-height: 131.02%;
   margin-left: 100px;
   margin-top: 1px;
   padding-top: 1px;
   color: #ffffff;
+BORRAR LINEA PARA REESTABLECER*/
 }
 
-.section-1-div-h3 {
+/*.section-1-div-h2-2 {
+  PROPIEDADES */
+  /*height: 118px;
+  width: 639px;
+  left: 127px;
+  top: 265px;
+  border-radius: nullpx;
+  TIPOGRAFIA  
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  font-family: Montserrat;
+  font-size: 51px;
   font-weight: 700;
-  font-size: 10px;
+  line-height: 67px;
+  letter-spacing: 0em;
+  text-align: left;
+
+ Tiiitle Text
+  position: absolute;
+  width: 639px;
+  height: 118px;
+  left: 127px;
+  top: 265px;
+
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 51px;
   line-height: 131.02%;
-  margin-left: 100px;
-  color: #ffffff;
+  or 67px
+} */
+
+.section-1-div-h3 {
+/* Tiiitle Text */
+  position: absolute;
+  width: 639px;
+  height: 118px;
+  left: 127px;
+  top: 360px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 131.02%;
+  /* or 67px */
+  color: #FFFFFF;
 }
 
 .section-1-button {
-  position: absolute;
-  width: 200px;
+/*  Propiedades */
   height: 50px;
-  /*left: 38.03%;
-  right: 54.17%; */
-/*  margin-top: 12.5vh; */
-  margin-left: 100px;
-  margin-right: 1px;
-  /*  top: calc(50% - 14px / 2 - 578.5px); */
-  font-weight: 700;
-  font-size: 14px;
-  text-align: center;
-  letter-spacing: 0.5px;
+  width: 166px;
+  left: 127px;
+  top: 417px;
+  border-radius: 15px;
 
-  background-image: linear-gradient(
-    to right,
-    #fe8c00 0%,
-    #f83600 51%,
-    #fe8c00 100%
-  );
-  text-transform: uppercase;
-  transition: 0.5s;
-  background-size: 200% auto;
-  color: white;
-  border-radius: 17.5px;
-  display: inline-block;
-}
+/*  Colors  */  
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FB103D 101.53%);
 
-.section-1-button:hover {
-  background-position: right center; /* change the direction of the change here */
-  color: #fff;
-  text-decoration: none;
+/*  Shadows */
+  box-shadow: 11px 28px 50px 0px #144E5A33;
+
+/* Rectangle */
+  position: absolute;
+  width: 166px;
+  height: 50px;
+  left: 127px;
+  top: 417px;
+
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FB103D 101.53%);
+
+/* Drop Shadow */
+  box-shadow: 11px 28px 50px rgba(20, 78, 90, 0.2);
+  border-radius: 15px;
 }
 
 .pizza {
@@ -153,38 +236,39 @@ nav {
   height: 150px;
 }
 
-/* .section-1-img-pizzas {
-  width: 30%;
-  height: 20vh;
-  align-content: space-around;
-} */
-
 .pizza-1 {
-  width: 30vw;
-  height: 30vh;
-  margin-left: 260px;
-  margin-right: 20vw;
-  margin-bottom: 20%;
-  left: 48.5vw;
-  top: 5vh;
+/*  PROPIEDADES */
+  height: 392px;
+  width: 392px;
+  left: 1046px;
+  top: 94px;
+  border-radius: 0px;
+
+/* pizza 1 */
   position: absolute;
-  display: flex;
-  flex-wrap: nowrap;
+  width: 392px;
+  height: 392px;
+  left: 1046px;
+  top: 94px;
+
   background: url(image.png);
-  justify-content: flex-end;
 }
 
 .pizza-2 {
-  width: 40vw;
-  height: 40vh;
-  left: 35vw; /*1046px;*/
-  top: 1vh; /*94px;*/
-  margin-left: 23.5%;
-  margin-right: 0px;
+/*  PROPIEDADES */
+  height: 265px;
+  width: 265px;
+  left: 920px;
+  top: 208px;
+  border-radius: 0px;
+
+/* image 34 */
   position: absolute;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: flex-end;
+  width: 265px;
+  height: 265px;
+  left: 920px;
+  top: 208px;
+
   background: url(pizza.png);
 }
 
@@ -194,21 +278,142 @@ nav {
 }
 
 .section-2-h2 {
+/*  PROPIEDADES */
+  height: 23px;
+  width: 278px;
+  left: 120px;
+  top: 536px;
+  border-radius: nullpx;
+
+/*  TIPOGRAFIA  */
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+
+/* Tiiitle Text */
+  position: absolute;
+  width: 278px;
+  height: 23px;
+  left: 120px;
+  top: 536px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 131.02%;
+  /* or 29px */
+  color: #FFFFFF;
+
 }
 
 .section-2-recomendados-1 {
+  /*  PROPIEDADES */
+  height: 103px;
+  width: 347px;
+  left: 197px;
+  top: 583px;
+  border-radius: 15px;
+
+/*  COLORS  */
+  background: #252525;
+
+/*  SHADOWS */
+  box-shadow: 0px 0px 50px 0px #01020780;
+
+/* Rectangulo Section 2 */
+  position: absolute;
+  width: 347px;
+  height: 103px;
+  left: 197px;
+  top: 583px;
+
+  background: #252525;
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
 }
 
-.Bennazianna {
+.bennazianna {
+/*  PROPIEDADES */
+  height: 62px;
+  width: 62px;
+  left: 211px;
+  top: 604px;
+  border-radius: 16px;
+  
+
+/* Photo Menu */
+  position: absolute;
+  left: 13.96%;
+  right: 81.94%;
+  top: 31.97%;
+  bottom: 64.74%;
+
+  background: url(pexels-ana-madeleine-uribe-2762939.jpg);
+  mix-blend-mode: normal;
+  border-radius: 16px;
+}
+
+.section-2-texto-detalles-bennaziana  {
+
 }
 
 .section-2-recomendados-2 {
+  /*  PROPIEDADES */
+    height: 103px;
+    width: 347px;
+    left: 197px;
+    top: 583px;
+    border-radius: 15px;
+  
+  /*  COLORS  */
+    background: #252525;
+  
+  /*  SHADOWS */
+    box-shadow: 0px 0px 50px 0px #01020780;
+  
+  /* Rectangulo Section 2 */
+    position: absolute;
+    width: 347px;
+    height: 103px;
+    left: 582px;
+    top: 583px;
+  
+    background: #252525;
+    box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+    border-radius: 15px;
 }
 
 .Tronco-Pizza {
 }
 
 .section-2-recomendados-3 {
+      /*  PROPIEDADES */
+      height: 103px;
+      width: 347px;
+      left: 197px;
+      top: 583px;
+      border-radius: 15px;
+    
+    /*  COLORS  */
+      background: #252525;
+    
+    /*  SHADOWS */
+      box-shadow: 0px 0px 50px 0px #01020780;
+    
+    /* Rectangulo Section 2 */
+      position: absolute;
+      width: 347px;
+      height: 103px;
+      left: 967px;
+      top: 584px;
+    
+      background: #252525;
+      box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+      border-radius: 15px;
 }
 
 .Papas-Provenzal {
