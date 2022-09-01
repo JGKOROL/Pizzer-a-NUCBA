@@ -3,8 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   /* font-family: ; */
-  color:#fafafa;
-  font-family: 'Montserrat';
+  color: #fafafa;
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -21,7 +21,6 @@ header {
   height: 150px;
   align-items: center;
   padding: 10px;
-
 }
 nav {
   width: 200px;
@@ -47,73 +46,71 @@ nav {
 
 .font-home {
   margin-left: 10px;
-  font-family: 'Montserrat';
   font-style: normal;
   color: #ffffff;
-  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 131.02%;
 }
-.carry{
+.carry {
   width: 20px;
   height: 20px;
   align-content: center;
 }
-.login{
+.login {
   width: 20px;
   height: 20px;
   align-content: center;
 }
 .section-1 {
   width: 90%;
-  height: 350px;
+  height: 200px;
   display: flex;
   flex-direction: column-reverse;
-}
+ }
 
-.section-1-buscador {
-  display: inline-block;
-  position: absolute;
+.section-1-div {
+  width: 90%;
+  height: 200px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-content: center;
+ }
+
+
+.section-1-div-h1 {
   width: 40%;
-  height: 199px;
+  height: auto;
   left: 103px;
-  top: 235px;
-  align-content: flex-start;
-  color: #ffffff;
-}
-
-.section-1-buscador-h2 {
+  top: 160px;
+  margin: 0;
+  padding: 0;
   display: inline-block;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 51px;
-  line-height: 131.02%;
-  color: #ffffff;
-}
-
-.section-1-buscador-input {
-  width: 50%;
-  height: 60px;
-  display: inline-block;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
   position: absolute;
-  left: 1.67%;
-  right: 56.01%;
-  top: 18.05%;
-  bottom: 79.3%;
-  margin-top: 5%;
-  padding-bottom: 5%;
-  background: #252525;
-  color:#f4f4f4;
-  opacity: 0.1;
-  border: 1px solid #f4f4f4;
-  box-shadow: 12px 26px 50px rgba(90, 108, 234, 0.07);
-  border-radius: 15px;
+  align-content: flex-start;
+  box-sizing: border-box;
+  color: #fafafa;
+  font-size: 66px;
+}
+
+.section-1-div-h2 {
+  left: 103px;
+  /*top: 235px; */
+  font-size: 16px;
+  line-height: 131.02%;
+  margin-left: 100px;
+  margin-top: 1px;
+  padding-top: 1px;
+  color: #ffffff;
+}
+
+.section-1-div-h3 {
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 131.02%;
+  margin-left: 100px;
+  color: #ffffff;
 }
 
 .section-1-button {
@@ -122,39 +119,45 @@ nav {
   height: 50px;
   /*left: 38.03%;
   right: 54.17%; */
-  margin-top: 12.5vh;
-  margin-left: 1px;
+/*  margin-top: 12.5vh; */
+  margin-left: 100px;
   margin-right: 1px;
   /*  top: calc(50% - 14px / 2 - 578.5px); */
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   text-align: center;
   letter-spacing: 0.5px;
-        
-    background-image: linear-gradient(to right, #fe8c00 0%, #f83600  51%, #fe8c00  100%);
-    text-transform: uppercase;
-    transition: 0.5s;
-    background-size: 200% auto;
-    color: white;            
-    border-radius: 17.5px;
-    display:inline-block;  
-  }
 
-  .section-1-button:hover {
-    background-position: right center; /* change the direction of the change here */
-    color: #fff;
-    text-decoration: none;
-  }
- 
-  
+  background-image: linear-gradient(
+    to right,
+    #fe8c00 0%,
+    #f83600 51%,
+    #fe8c00 100%
+  );
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 17.5px;
+  display: inline-block;
+}
 
-.section-1-img-pizzas {
+.section-1-button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.pizza {
+  width: 150px;
+  height: 150px;
+}
+
+/* .section-1-img-pizzas {
   width: 30%;
   height: 20vh;
   align-content: space-around;
-}
+} */
 
 .pizza-1 {
   width: 30vw;
@@ -175,8 +178,8 @@ nav {
   width: 40vw;
   height: 40vh;
   left: 35vw; /*1046px;*/
-  top: 5vh; /*94px;*/
-  margin-left: 80%;
+  top: 1vh; /*94px;*/
+  margin-left: 23.5%;
   margin-right: 0px;
   position: absolute;
   display: flex;
