@@ -347,9 +347,9 @@ BORRAR LINEA PARA REESTABLECER*/
 
 /* Photo Menu */
   position: absolute;
-  left: 13.96%;
+  left: 5%;
   right: 81.94%;
-  top: 31.97%;
+  top: 20%;
   bottom: 64.74%;
 
   background: url(pexels-ana-madeleine-uribe-2762939.jpg);
@@ -358,7 +358,132 @@ BORRAR LINEA PARA REESTABLECER*/
 }
 
 .section-2-texto-detalles-bennaziana  {
+}
 
+.section-2-h3-r1-bennaziana {
+/*  PROPIEDADES */
+  height: 20px;
+  width: 101px;
+  left: 290.4462890625px;
+  top: 602px;
+  border-radius: nullpx;
+
+/*  TIPOGRAFIA  */
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+/* Menu Name */
+  position: absolute;
+  height: 20px;
+  left: 27.5%;
+  right: 74.11%;
+  top: calc(50% - 33px);
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 131.02%;
+  /* identical to box height, or 20px */
+  color: #FFFFFF;
+}
+
+.section-2-h4-r1-detalle  {
+/*  PROPIEDADES */
+  height: 17px;
+  width: 130px;
+  left: 290.4462890625px;
+  top: 626px;
+  border-radius: nullpx;
+
+/*  TIPOGRAFIA  */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.5px;
+  text-align: left;
+
+/* Resaturant Name */
+  position: absolute;
+  height: 17px;
+  left: 27.5%;
+  right: 72.32%;
+  top: 45px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+
+  mix-blend-mode: normal;
+  opacity: 0.3;
+}
+
+.section-2-h4-r1-precio {
+/*  PROPIEDADES */
+  height: 25px;
+  width: 66px;
+  left: 290.8916015625px;
+  top: 648px;
+  border-radius: nullpx;
+
+/*  TIPOGRAFIA  */
+  font-family: Montserrat;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  /* Priece */
+  position: absolute;
+  height: 25px;
+  left: 27.5%;
+  right: 74.4%;
+  top: calc(75% - 10px);
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 131.02%;
+/* identical to box height, or 25px */
+/* linear-primary */
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.section-2-button-bennazianna {
+/*  PROPIEDADES */
+  height: 29px;
+  width: 85px;
+  left: 442px;
+  top: 620px;
+  border-radius: 17.5px;
+  border-style: none;
+
+/*  COLORES */
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+/* BOTON */
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  left: 245px;
+  top: 40px;
+
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  border-radius: 17.5px;
 }
 
 .section-2-recomendados-2 {
@@ -387,7 +512,151 @@ BORRAR LINEA PARA REESTABLECER*/
     border-radius: 15px;
 }
 
-.Tronco-Pizza {
+.tronco-pizza {
+  /*  PROPIEDADES */
+  height: 62px;
+  width: 62px;
+  left: 211px;
+  top: 604px;
+  border-radius: 16px;
+  
+
+/* Photo Menu */
+  position: absolute;
+  left: 5%;
+  right: 81.94%;
+  top: 20%;
+  bottom: 64.74%;
+
+  background: url(pexels-ana-madeleine-uribe-2762939.jpg);
+  mix-blend-mode: normal;
+  border-radius: 16px;
+}
+
+.section-2-h3-r2-tronco-pizza {
+/*  PROPIEDADES */
+  height: 20px;
+  width: 101px;
+  left: 290.4462890625px;
+  top: 602px;
+  border-radius: nullpx;
+
+/*  TIPOGRAFIA  */
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+/* Menu Name */
+  position: absolute;
+  height: 20px;
+  left: 27.5%;
+  right: 74.11%;
+  top: calc(50% - 33px);
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 131.02%;
+  /* identical to box height, or 20px */
+  color: #FFFFFF;
+}
+
+.section-2-h4-r2-detalle  {
+/*  PROPIEDADES */
+  height: 17px;
+  width: 130px;
+  left: 290.4462890625px;
+  top: 626px;
+  border-radius: nullpx;
+
+/*  TIPOGRAFIA  */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.5px;
+  text-align: left;
+
+/* Resaturant Name */
+  position: absolute;
+  height: 17px;
+  left: 27.5%;
+  right: 72.32%;
+  top: 45px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+
+  mix-blend-mode: normal;
+  opacity: 0.3;
+}
+
+.section-2-h4-r2-precio {
+/*  PROPIEDADES */
+height: 25px;
+width: 66px;
+left: 290.8916015625px;
+top: 648px;
+border-radius: nullpx;
+
+/*  TIPOGRAFIA  */
+font-family: Montserrat;
+font-size: 19px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+
+/* Priece */
+position: absolute;
+height: 25px;
+left: 27.5%;
+right: 74.4%;
+top: calc(75% - 10px);
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height: 131.02%;
+/* identical to box height, or 25px */
+/* linear-primary */
+background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;  
+}
+
+.section-2-button-tronco-pizza  {
+/*  PROPIEDADES */
+height: 29px;
+width: 85px;
+left: 442px;
+top: 620px;
+border-radius: 17.5px;
+border-style: none;
+
+/*  COLORES */
+background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+/* BOTON */
+position: absolute;
+width: 85px;
+height: 29px;
+left: 245px;
+top: 40px;
+
+background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+border-radius: 17.5px;
 }
 
 .section-2-recomendados-3 {
@@ -416,25 +685,275 @@ BORRAR LINEA PARA REESTABLECER*/
       border-radius: 15px;
 }
 
-.Papas-Provenzal {
+.papas-provenzal {
+  /*  PROPIEDADES */
+  height: 62px;
+  width: 62px;
+  left: 211px;
+  top: 604px;
+  border-radius: 16px;
+  
+
+/* Photo Menu */
+  position: absolute;
+  left: 5%;
+  right: 81.94%;
+  top: 20%;
+  bottom: 64.74%;
+
+  background: url(pexels-ana-madeleine-uribe-2762939.jpg);
+  mix-blend-mode: normal;
+  border-radius: 16px;
+}
+
+.section-2-h3-r3-papas-provenzal {
+/*  PROPIEDADES */
+  height: 20px;
+  width: 132px;
+  left: 290.4462890625px;
+  top: 602px;
+  border-radius: nullpx;
+
+/*  TIPOGRAFIA  */
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+/* Menu Name */
+  position: absolute;
+  height: 20px;
+  left: 27.5%;
+  right: 74.11%;
+  top: calc(50% - 33px);
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 131.02%;
+  /* identical to box height, or 20px */
+  color: #FFFFFF;
+}
+
+.section-2-h4-r3-detalle  {
+/*  PROPIEDADES */
+  height: 17px;
+  width: 130px;
+  left: 290.4462890625px;
+  top: 626px;
+  border-radius: nullpx;
+
+/*  TIPOGRAFIA  */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.5px;
+  text-align: left;
+
+/* Resaturant Name */
+  position: absolute;
+  height: 17px;
+  left: 27.5%;
+  right: 72.32%;
+  top: 45px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+
+  mix-blend-mode: normal;
+  opacity: 0.3;
+}
+
+.section-2-h4-r3-precio {
+/*  PROPIEDADES */
+height: 25px;
+width: 66px;
+left: 290.8916015625px;
+top: 648px;
+border-radius: nullpx;
+
+/*  TIPOGRAFIA  */
+font-family: Montserrat;
+font-size: 19px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+
+/* Priece */
+position: absolute;
+height: 25px;
+left: 27.5%;
+right: 74.4%;
+top: calc(75% - 10px);
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height: 131.02%;
+/* identical to box height, or 25px */
+/* linear-primary */
+background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;  
+}
+
+.section-2-button-papas-provenzal  {
+/*  PROPIEDADES */
+height: 29px;
+width: 85px;
+left: 442px;
+top: 620px;
+border-radius: 17.5px;
+border-style: none;
+
+/*  COLORES */
+background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+/* BOTON */
+position: absolute;
+width: 85px;
+height: 29px;
+left: 245px;
+top: 40px;
+
+background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+border-radius: 17.5px;
 }
 
 .section-3 {
+  width: 80%;
+  height: 30%;  
 }
 
 .section-3-h2 {
+  /*  PROPIEDADES */
+  height: 20px;
+  width: 87px;
+  left: 120px;
+  top: 770px;
+  border-radius: nullpx;
+
+
+/*  TIPOGRAFIA  */
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+
+
+/* Tiiitle Text */
+  position: absolute;
+  width: 87px;
+  height: 20px;
+  left: 120px;
+  top: 770px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 131.02%;
+/* identical to box height, or 20px */
+  color: #FFFFFF;  
 }
 
-.section-3-categorías {
+.section-3-categorias-1 {
+/*  PROPIEDADES */
+  height: 171px;
+  width: 147px;
+  left: 116px;
+  top: 821px;
+  border-radius: 15px;
+
+/*  COLORS  */
+  background: #252525;
+/*  SHADOW  */
+  box-shadow: 0px 0px 50px 0px #01020780;
+
+/*  CUADRO GRIS */
+  position: absolute;
+  width: 147px;
+  height: 171px;
+  left: 116px;
+  top: 821px;
+
+  background: #252525;
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
+}
+
+.section-3-img-pizzas {
+/*  PROPIEDADES */
+  height: 71px;
+  width: 71px;
+  left: 154px;
+  top: 846px;
+  border-radius: 0px;
+
+/*  IMAGEN  */
+  position: absolute;
+  width: 71px;
+  height: 71px;
+  left: 42px;
+  top: 30px;
+
+  background: url(image.png);
 }
 
 .section-3-pizzas {
 }
 
-.section-3-Hamburguesas {
+.section-3-h3-pizzas {
+/*  PROPIEDADES */
+  height: 20px;
+  width: 47px;
+  left: 166px;
+  /*top: 938px;*/
+  border-radius: nullpx;
+
+/*  TIPOGRAFIA  */
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  /*  Pizzas  */
+  position: absolute;
+  width: 47px;
+  height: 20px;
+  left: 166px;
+  top: 938px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 131.02%;
+/* identical to box height, or 20px */
+  color: #FFFFFF;
 }
 
-.section-3-Napapuki {
+
+.section-3-hamburguesas {
+}
+
+.section-3-napapuki {
 }
 
 .section-3-Individuales {
