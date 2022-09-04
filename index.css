@@ -307,7 +307,6 @@ BORRAR LINEA PARA REESTABLECER*/
   line-height: 131.02%;
   /* or 29px */
   color: #FFFFFF;
-
 }
 
 .section-2-recomendados-1 {
@@ -1723,4 +1722,217 @@ color: #FFFFFF;
   background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
   box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
   border-radius: 15px;
+}
+
+.section-4  {
+  width: 80%;
+  height: 30%;
+}
+
+.section-4-h2 {
+/*  PROPIEDADES */
+height: 23px;
+width: 278px;
+left: 120px;
+top: 1066px;
+border-radius: nullpx;
+
+/*  TIPOGRAFIA  */
+font-family: Montserrat;
+font-size: 22px;
+font-weight: 500;
+line-height: 28.83px;
+letter-spacing: 0em;
+text-align: left;
+
+/* Tiiitle Text */
+position: absolute;
+width: 278px;
+height: 23px;
+left: 120px;
+top: 1066px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 131.02%;
+/* or 29px */
+color: #FFFFFF;
+}
+
+.section-4-mrpit  {
+/*  PROPIEDADES */
+  height: 213px;
+  width: 282px;
+  left: 132px;
+  top: 1120px;
+  border-radius: 15px;
+  
+/*  COLOR */
+  background: #252525;
+
+/*  SHADOWS */
+  box-shadow: 0px 0px 50px 0px #01020780;
+
+/*  RECUADRO GRIS */  
+  position: absolute;
+  width: 282px;
+  height: 213px;
+  left: 132px;
+  top: 1120px;
+
+  background: #252525;
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
+}
+
+.section-4-img-mrpit  {
+/*  PROPIEDADES */
+  height: 97px;
+  width: 237px;
+  left: 155px;
+  top: 1136px;
+  border-radius: 16px;
+
+/*  Photo */
+  position: absolute;
+  left: 8%;
+  right: 74.07%;
+  top: 8%;
+  bottom: 34.73%;
+
+  background: url(pexels-eneida-nieves-905847.jpg);
+  mix-blend-mode: normal;
+  border-radius: 16px;
+}
+
+.section-4-mrpit  {
+}
+
+.section-4-h3-mrpit {
+/*  PROPIEDADES */
+  height: 20px;
+  width: 71px;
+  left: 154px;
+  top: 1244px;
+  border-radius: nullpx;
+
+/*  TIPOGRAPHY  */
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+
+/*  CSS */
+  position: absolute;
+  height: 20px;
+  left: 8%;
+  right: 85.12%;
+  top: calc(50% - 20px/2 + 30px);
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 131.02%;
+/* identical to box height, or 20px */
+  color: #FFFFFF;
+}
+
+.section-4-h4-mrpit-detalle {
+/*  PROPIEDADES */
+  height: 17px;
+  width: 138px;
+  left: 154px;
+  top: 1268px;
+  border-radius: nullpx;
+
+/*  TIPOGRAPHY  */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.5px;
+  text-align: left;
+
+/*  CSS */
+  position: absolute;
+  height: 17px;
+  left: 8%;
+  right: 80.69%;
+  top: calc(50% - 10px/2 + 50px);
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  /* identical to box height */
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.3;
+}
+
+.section-4-h4-mrpit-precio  {
+  height: 25px;
+  width: 53px;
+  left: 154.4453125px;
+  top: 1290px;
+  border-radius: nullpx;
+
+  font-family: Montserrat;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+
+/*  CSS */
+  position: absolute;
+  height: 25px;
+  left: 8.5%;
+  right: 86.28%;
+  top: calc(50% - 25px/2 + 80px);
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 131.02%;
+/* identical to box height, or 25px */
+
+/* linear-primary */
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.section-4-mrpit-button {
+/*  PROPIEDADES */
+  height: 29px;
+  width: 85px;
+  left: 308px;
+  top: 1286px;
+  border-radius: 17.5px;
+  border-style: none;
+
+/*  COLORES */
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+
+/* BOTON */
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  left: 175px;
+  top: 170px;
+
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  border-radius: 17.5px;  
 }
