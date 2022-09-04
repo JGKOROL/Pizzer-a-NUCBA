@@ -837,7 +837,7 @@ border-radius: 17.5px;
   height: 30%;  
 }
 
-.section-3-h2 {
+.section-3-h2 {   /*  CATEGORÍAS  */
   /*  PROPIEDADES */
   height: 20px;
   width: 87px;
@@ -896,6 +896,27 @@ border-radius: 17.5px;
   border-radius: 15px;
 }
 
+.section-3-img-pizzas-blur  {
+  /*  PROPIEDADES */
+  height: 71px;
+  width: 71px;
+  left: 158px;
+  top: 852px;
+  border-radius: 0px;
+  opacity: 50%;
+  
+  /*  IMAGEN  */
+  position: absolute;
+  width: 71px;
+  height: 71px;
+  left: 41.5px;
+  top: 36px;
+  
+  background: url(image.png);
+  opacity: 0.5;
+  filter: blur(10px);
+  }
+
 .section-3-img-pizzas {
 /*  PROPIEDADES */
   height: 71px;
@@ -908,7 +929,7 @@ border-radius: 17.5px;
   position: absolute;
   width: 71px;
   height: 71px;
-  left: 42px;
+  left: 37.5px;
   top: 30px;
 
   background: url(image.png);
@@ -937,8 +958,8 @@ border-radius: 17.5px;
   position: absolute;
   width: 47px;
   height: 20px;
-  left: 166px;
-  top: 938px;
+  left: 50px;
+  top: 117.5px;
   
   font-family: 'Montserrat';
   font-style: normal;
@@ -949,21 +970,757 @@ border-radius: 17.5px;
   color: #FFFFFF;
 }
 
+.section-3-linea-naranja-pizzas  {
+/*  PROPIEDADES */
+height: 4px;
+width: 24px;
+left: 177px;
+top: 970px;
+border-radius: 15px;
+
+/*  SOMBRAS */
+box-shadow: 0px 0px 50px 0px #01020780;
+
+/*  CSS */
+position: absolute;
+width: 24px;
+height: 4px;
+left: 60px;
+top: 149.1px;
+
+  /* linear-primary */
+background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+border-radius: 15px;
+}
+
+.section-3-categorias-2 {
+  /*  PROPIEDADES */
+height: 171px;
+width: 147px;
+left: 116px;
+top: 821px;
+border-radius: 15px;
+
+/*  COLORS  */
+background: #252525;
+/*  SHADOW  */
+box-shadow: 0px 0px 50px 0px #01020780;
+
+/*  CUADRO GRIS */
+position: absolute;
+width: 147px;
+height: 171px;
+left: 299px;
+top: 821px;
+
+background: #252525;
+box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+border-radius: 15px;
+}
+
+.section-3-img-hamburguesas-blur {
+  /*  PROPIEDADES */
+    height: 71px;
+    width: 71px;
+    left: 154px;
+    top: 846px;
+    border-radius: 0px;
+    
+  /*  IMAGEN  */
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    left: 35px;
+    top: 25px;
+  
+    background: url(burger);
+    filter: blur(6px);
+  }
+
+.section-3-img-hamburguesas {
+/*  PROPIEDADES */
+  height: 71px;
+  width: 71px;
+  left: 154px;
+  top: 846px;
+  border-radius: 0px;
+  
+/*  IMAGEN  */
+  position: absolute;
+  width: 85px;
+  height: 85px;
+  left: 35px;
+  top: 25px;
+
+  background: url(burger);
+}
+
 
 .section-3-hamburguesas {
+}
+
+.section-3-h3-hamburguesas  {
+/*  PROPIEDADES */
+  height: 20px;
+  width: 47px;
+  left: 166px;
+  /*top: 938px;*/
+  border-radius: nullpx;
+
+/*  TIPOGRAFIA  */
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+
+/*  Hamburguesas  */
+  position: absolute;
+  width: 47px;
+  height: 20px;
+  left: 17.5px;
+  top: 117.5px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 131.02%;
+/* identical to box height, or 20px */
+  color: #FFFFFF;
+}
+
+.section-3-linea-naranja-hamburguesas  {
+/*  PROPIEDADES */
+  height: 4px;
+  width: 24px;
+  left: 177px;
+  top: 970px;
+  border-radius: 15px;
+
+/*  SOMBRAS */
+  box-shadow: 0px 0px 50px 0px #01020780;
+
+/*  CSS */
+  position: absolute;
+  width: 24px;
+  height: 4px;
+  left: 64px;
+  top: 149.1px;
+
+  /* linear-primary */
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
+}
+
+.section-3-categorias-3 {
+/*  PROPIEDADES */
+height: 171px;
+width: 147px;
+left: 116px;
+top: 821px;
+border-radius: 15px;
+
+/*  COLORS  */
+background: #252525;
+/*  SHADOW  */
+box-shadow: 0px 0px 50px 0px #01020780;
+
+/*  CUADRO GRIS */
+position: absolute;
+width: 147px;
+height: 171px;
+left: 482px;
+top: 821px;
+
+background: #252525;
+box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+border-radius: 15px;
+}
+
+.section-3-img-napapuki-blur {
+  /*  PROPIEDADES */
+    height: 83px;
+    width: 83px;
+    left: 514px;
+    top: 840px;
+    border-radius: 0px;
+  
+  
+  /*  CSS  */
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    left: 33px;
+    top: 26px;
+  
+    background: url(fries);
+    filter: blur(6px);
+  }
+
+.section-3-img-napapuki {
+/*  PROPIEDADES */
+  height: 83px;
+  width: 83px;
+  left: 511px;
+  top: 839px;
+  border-radius: 0px;
+
+
+/*  CSS  */
+  position: absolute;
+  width: 83px;
+  height: 83px;
+  left: 30px;
+  top: 25px;
+
+  background: url(fries);
 }
 
 .section-3-napapuki {
 }
 
-.section-3-Individuales {
+.section-3-h3-napapuki  {
+  /*  PROPIEDADES */
+  height: 20px;
+  width: 74px;
+  left: 519px;
+  top: 938px;
+  border-radius: nullpx;
+
+
+/*  TIPOGRAFIA  */
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+
+
+/*  Napapuki  */
+  position: absolute;
+  width: 74px;
+  height: 20px;
+  left: 42px;
+  top: 117.5px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 131.02%;
+/* identical to box height, or 20px */
+  color: #FFFFFF;
+}
+
+.section-3-linea-naranja-napapuki {
+/*  PROPIEDADES */
+  height: 4px;
+  width: 24px;
+  left: 177px;
+  top: 970px;
+  border-radius: 15px;
+
+/*  SOMBRAS */
+  box-shadow: 0px 0px 50px 0px #01020780;
+
+/*  CSS */
+  position: absolute;
+  width: 24px;
+  height: 4px;
+  left: 64px;
+  top: 149.1px;
+
+  /* linear-primary */
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
+}
+
+.section-3-categorias-4 {
+/*  PROPIEDADES */
+  height: 171px;
+  width: 147px;
+  left: 665px;
+  top: 821px;
+  border-radius: 15px;
+
+/*  COLORS  */
+  background: #252525;
+/*  SHADOW  */
+  box-shadow: 0px 0px 50px 0px #01020780;
+
+/*  CUADRO GRIS */
+  position: absolute;
+  width: 147px;
+  height: 171px;
+  left: 665px;
+  top: 821px;
+
+  background: #252525;
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
+}
+
+.section-3-img-individuales-blur {
+  /*  PROPIEDADES */
+    height: 86px;
+    width: 85px;
+    left: 696px;
+    top: 837px;
+  
+  /*  CSS  */
+    position: absolute;
+    width: 85px;
+    height: 86px;
+    left: 32px;
+    top: 28px;
+  
+    background: url(pizza.png);
+    filter: blur(4px);  
+  }
+
+.section-3-img-individuales {
+/*  PROPIEDADES */
+  height: 86px;
+  width: 85px;
+  left: 511px;
+  top: 837px;
+
+/*  CSS  */
+  position: absolute;
+  width: 85px;
+  height: 86px;
+  left: 30px;
+  top: 25px;
+
+  background: url(pizza.png);  
+}
+
+.section-3-individuales {
+}
+
+.section-3-h3-individuales  {
+/*  PROPIEDADES */
+  height: 20px;
+  width: 91px;
+  left: 693px;
+  top: 938px;
+  border-radius: nullpx;
+
+
+/*  TIPOGRAFIA  */
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+
+
+/*  Individuales  */
+  position: absolute;
+  width: 74px;
+  height: 20px;
+  left: 30px;
+  top: 117.5px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 131.02%;
+/* identical to box height, or 20px */
+  color: #FFFFFF;
+}
+
+.section-3-linea-naranja-individuales {
+/*  PROPIEDADES */
+  height: 4px;
+  width: 24px;
+  left: 177px;
+  top: 970px;
+  border-radius: 15px;
+
+/*  SOMBRAS */
+  box-shadow: 0px 0px 50px 0px #01020780;
+
+/*  CSS */
+  position: absolute;
+  width: 24px;
+  height: 4px;
+  left: 63px;
+  top: 149.1px;
+
+/* linear-primary */
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;  
+}
+
+.section-3-categorias-5 {
+/*  PROPIEDADES */
+  height: 171px;
+  width: 147px;
+  left: 848px;
+  top: 821px;
+  border-radius: 15px;
+
+/*  COLORS  */
+  background: #252525;
+/*  SHADOW  */
+  box-shadow: 0px 0px 50px 0px #01020780;
+
+/*  CUADRO GRIS */
+  position: absolute;
+  width: 147px;
+  height: 171px;
+  left: 848px;
+  top: 821px;
+
+  background: #252525;
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
+}
+
+.section-3-img-wraps-blur  {
+  /*  PROPIEDADES */
+    height: 86px;
+    width: 86px;
+    left: 880px;
+    top: 839px;
+  
+  /*  CSS  */
+    position: absolute;
+    width: 86px;
+    height: 86px;
+    left: 32px;
+    top: 28px;
+  
+    background: url(buritto.png);
+    filter: blur(4px);
+  }
+
+.section-3-img-wraps  {
+/*  PROPIEDADES */
+  height: 86px;
+  width: 86px;
+  left: 878px;
+  top: 839px;
+
+/*  CSS  */
+  position: absolute;
+  width: 86px;
+  height: 86px;
+  left: 30px;
+  top: 25px;
+
+  background: url(buritto.png);  
 }
 
 .section-3-Wraps {
 }
 
-.section-3-Mexican-Food {
+.section-3-h3-wraps {
+/*  PROPIEDADES */
+  height: 20px;
+  width: 91px;
+  left: 693px;
+  top: 938px;
+  border-radius: nullpx;
+
+
+/*  TIPOGRAFIA  */
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+
+
+/*  Wraps  */
+  position: absolute;
+  width: 91px;
+  height: 20px;
+  left: 30px;
+  top: 117.5px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 131.02%;
+/* identical to box height, or 20px */
+  color: #FFFFFF;  
 }
 
-.section-3-Batidukis {
+.section-3-linea-naranja-wraps  {
+/*  PROPIEDADES */
+  height: 4px;
+  width: 24px;
+  left: 177px;
+  top: 970px;
+  border-radius: 15px;
+
+/*  SOMBRAS */
+  box-shadow: 0px 0px 50px 0px #01020780;
+
+/*  CSS */
+  position: absolute;
+  width: 24px;
+  height: 4px;
+  left: 63px;
+  top: 149.1px;
+
+/* linear-primary */
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;   
+}
+
+.section-3-categorias-6 {
+  /*  PROPIEDADES */
+  height: 171px;
+  width: 147px;
+  left: 1031px;
+  top: 821px;
+  border-radius: 15px;
+
+/*  COLORS  */
+  background: #252525;
+/*  SHADOW  */
+  box-shadow: 0px 0px 50px 0px #01020780;
+
+/*  CUADRO GRIS */
+  position: absolute;
+  width: 147px;
+  height: 171px;
+  left: 1031px;
+  top: 821px;
+
+  background: #252525;
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
+}
+
+.section-3-img-mexican-food-blur {
+  /*  PROPIEDADES */
+    height: 86px;
+    width: 85px;
+    left: 1062px;
+    top: 842px;
+  
+  /*  CSS  */
+    position: absolute;
+    width: 85px;
+    height: 86px;
+    left: 32px;
+    top: 28px;
+  
+    background: url(taco.png);  
+    filter: blur(4px);
+  }
+
+.section-3-img-mexican-food {
+/*  PROPIEDADES */
+  height: 86px;
+  width: 85px;
+  left: 1060px;
+  top: 839px;
+
+/*  CSS  */
+  position: absolute;
+  width: 85px;
+  height: 86px;
+  left: 30px;
+  top: 25px;
+
+  background: url(taco.png);  
+}
+
+.section-3-mexican-food {
+}
+
+.section-3-h3-mexican-food  {
+/*  PROPIEDADES */
+  height: 20px;
+  width: 105px;
+  left: 1052px;
+  top: 938px;
+  border-radius: nullpx;
+
+
+/*  TIPOGRAFIA  */
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+
+
+/*  Mexican Food  */
+  position: absolute;
+  width: 105px;
+  height: 20px;
+  left: 23px;
+  top: 117.5px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 131.02%;
+/* identical to box height, or 20px */
+  color: #FFFFFF; 
+}
+
+.section-3-linea-naranja-mexican-food {
+/*  PROPIEDADES */
+  height: 4px;
+  width: 24px;
+  left: 177px;
+  top: 970px;
+  border-radius: 15px;
+
+/*  SOMBRAS */
+  box-shadow: 0px 0px 50px 0px #01020780;
+
+/*  CSS */
+  position: absolute;
+  width: 24px;
+  height: 4px;
+  left: 63px;
+  top: 149.1px;
+
+/* linear-primary */
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px; 
+}
+
+.section-3-categorias-7 {
+/*  PROPIEDADES */
+  height: 171px;
+  width: 147px;
+  left: 1214px;
+  top: 821px;
+  border-radius: 15px;
+
+/*  COLORS  */
+  background: #252525;
+/*  SHADOW  */
+  box-shadow: 0px 0px 50px 0px #01020780;
+
+/*  CUADRO GRIS */
+  position: absolute;
+  width: 147px;
+  height: 171px;
+  left: 1214px;
+  top: 821px;
+
+  background: #252525;
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
+}
+
+.section-3-img-batidukis-blur  {
+  /*  PROPIEDADES */
+    height: 86px;
+    width: 86px;
+    left: 1242px;
+    top: 840px;
+  
+  /*  CSS  */
+    position: absolute;
+    width: 85px;
+    height: 86px;
+    left: 32px;
+    top: 28px;
+  
+    background: url(float.png);
+    filter: blur(4px);
+  }
+
+.section-3-img-batidukis  {
+/*  PROPIEDADES */
+  height: 86px;
+  width: 86px;
+  left: 1240px;
+  top: 837px;
+
+/*  CSS  */
+  position: absolute;
+  width: 85px;
+  height: 86px;
+  left: 30px;
+  top: 25px;
+
+  background: url(float.png);  
+}
+
+.section-3-batidukis {
+}
+
+.section-3-h3-batidukis {
+/*  PROPIEDADES */
+height: 20px;
+width: 71px;
+left: 1252px;
+top: 938px;
+border-radius: nullpx;
+
+
+/*  TIPOGRAFIA  */
+font-family: Montserrat;
+font-size: 15px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+
+
+/*  Individuales  */
+position: absolute;
+width: 71px;
+height: 20px;
+left: 40px;
+top: 117.5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 131.02%;
+/* identical to box height, or 20px */
+color: #FFFFFF; 
+}
+
+.section-3-linea-naranja-batidukis  {
+/*  PROPIEDADES */
+  height: 4px;
+  width: 24px;
+  left: 177px;
+  top: 970px;
+  border-radius: 15px;
+
+/*  SOMBRAS */
+  box-shadow: 0px 0px 50px 0px #01020780;
+
+/*  CSS */
+  position: absolute;
+  width: 24px;
+  height: 4px;
+  left: 63px;
+  top: 149.1px;
+
+/* linear-primary */
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
 }
