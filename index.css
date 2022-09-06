@@ -12,7 +12,6 @@
 
 body {
   background-color: #131415;
-  box-shadow: 0px 48px 128px rgba(0, 0, 0, 0.4);
   /*131415;*/
 }
 header {
@@ -28,12 +27,7 @@ nav {
   align-items: center;
   justify-content: space-around;
 }
-.div-home {
-  width: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+
 .div-header {
   display: flex;
   align-items: center;
@@ -44,24 +38,96 @@ nav {
   padding: 10px;
 }
 
-.font-home {
-  margin-left: 10px;
-  font-style: normal;
-  color: #ffffff;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 131.02%;
+.header-img-logo  {
+  height: 79px;
+  width: 76px;
+  left: 65px;
+  top: 31px;
+  border-radius: 0px;
+
+  position: absolute;
+  width: 76px;
+  height: 79px;
+  left: 65px;
+  top: 31px;
+
+  background: url(nucbazappiicon.png);
 }
+
+.div-home {
+
+  height: 24px;
+width: 74px;
+left: 1179px;
+top: 58px;
+border-radius: 0px;
+
+position: absolute;
+}
+
+.icon-home  {
+  height: 20px;
+  width: 19px;
+  left: 2.5px;
+  top: 2px;
+  border-radius: 0px;
+  left: 10.42%;
+  right: 10.42%;
+  top: 8.33%;
+  bottom: 8.33%;
+
+position: absolute;
+}
+
+.font-home { 
+  height: 16px;
+  width: 38px;
+  left: 40px;
+  top: 6px;
+  border-radius: nullpx;
+
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  position: absolute;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  line-height: 131.02%;
+/* identical to box height, or 16px */
+  color: #FFFFFF;
+}
+
 .carry {
   width: 20px;
   height: 20px;
   align-content: center;
+  
+  border-radius: 0px;
+
+/*  CSS */
+  position: absolute;
+  left: 1320px;
+  right: 8.27%;
+  top: 60px;
+  bottom: 27.13%;
 }
 .login {
   width: 20px;
   height: 20px;
   align-content: center;
+
+  border-radius: 0px;
+
+/*  CSS */
+  position: absolute;
+  left: 1390px;
+  right: 8.27%;
+  top: 60px;
+  bottom: 27.13%;
 }
 .section-1 {
   width: 90%;
@@ -229,6 +295,16 @@ BORRAR LINEA PARA REESTABLECER*/
 /* Drop Shadow */
   box-shadow: 11px 28px 50px rgba(20, 78, 90, 0.2);
   border-radius: 15px;
+  
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+letter-spacing: 0.5px;
+
+color: #FEFEFF;
 }
 
 .pizza {
@@ -483,6 +559,15 @@ BORRAR LINEA PARA REESTABLECER*/
 
   background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
   border-radius: 17.5px;
+  /*  TYPOGRAPHY  */
+font-weight: 600;
+line-height: 15px;
+letter-spacing: 0.5px;
+text-align: center;
+font-family: 'Montserrat';
+font-style: normal;
+font-size: 12px;
+color: #FFFFFF;
 }
 
 .section-2-recomendados-2 {
@@ -656,6 +741,15 @@ top: 40px;
 
 background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
 border-radius: 17.5px;
+/*  TYPOGRAPHY  */
+font-weight: 600;
+line-height: 15px;
+letter-spacing: 0.5px;
+text-align: center;
+font-family: 'Montserrat';
+font-style: normal;
+font-size: 12px;
+color: #FFFFFF;
 }
 
 .section-2-recomendados-3 {
@@ -829,6 +923,15 @@ top: 40px;
 
 background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
 border-radius: 17.5px;
+/*  TYPOGRAPHY  */
+font-weight: 600;
+line-height: 15px;
+letter-spacing: 0.5px;
+text-align: center;
+font-family: 'Montserrat';
+font-style: normal;
+font-size: 12px;
+color: #FFFFFF;
 }
 
 .section-3 {
@@ -1807,9 +1910,6 @@ color: #FFFFFF;
   border-radius: 16px;
 }
 
-.section-4-mrpit  {
-}
-
 .section-4-h3-mrpit {
 /*  PROPIEDADES */
   height: 20px;
@@ -1915,24 +2015,1431 @@ color: #FFFFFF;
 }
 
 .section-4-mrpit-button {
-/*  PROPIEDADES */
+  /*  PROPIEDADES DEL BOTON */
   height: 29px;
   width: 85px;
-  left: 308px;
-  top: 1286px;
-  border-radius: 17.5px;
-  border-style: none;
-
-/*  COLORES */
-  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
-
-/* BOTON */
-  position: absolute;
-  width: 85px;
-  height: 29px;
   left: 175px;
   top: 170px;
-
+  border-radius: 17.5px;
+  border-style: none;
+  position: absolute;
+  /*  COLORES DEL BOTON */
   background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
-  border-radius: 17.5px;  
+  
+  /*  TYPOGRAPHY  */
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 12px;
+  color: #FFFFFF;
 }
+
+.section-4-qjamone  {
+/*  PROPIEDADES */
+  height: 213px;
+  width: 282px;
+  left: 454px;
+  top: 1120px;
+  border-radius: 15px;
+  
+/*  COLOR */
+  background: #252525;
+
+/*  SHADOWS */
+  box-shadow: 0px 0px 50px 0px #01020780;
+
+/*  RECUADRO GRIS */  
+  position: absolute;
+  width: 282px;
+  height: 213px;
+  left: 454px;
+  top: 1120px;
+
+  background: #252525;
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
+}
+
+.section-4-img-qjamone  {
+/*  PROPIEDADES */
+height: 97px;
+width: 237px;
+left: 477px;
+top: 1136px;
+border-radius: 16px;
+
+/*  Photo */
+position: absolute;
+left: 8%;
+right: 74.07%;
+top: 8%;
+bottom: 34.73%;
+
+background: url(pexels-eneida-nieves-905847.jpg);
+mix-blend-mode: normal;
+border-radius: 16px;
+}
+
+.section-4-h3-qjamone {
+/*  PROPIEDADES */
+  height: 20px;
+  width: 90px;
+  left: 476px;
+  top: 1244px;
+  border-radius: nullpx;
+
+/*  TIPOGRAPHY  */
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+
+/*  CSS */
+  position: absolute;
+  height: 20px;
+  left: 8%;
+  right: 62.57%;
+  top: calc(50% - 20px/2 + 30px);
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 131.02%;
+/* identical to box height, or 20px */
+  color: #FFFFFF;
+}
+
+.section-4-h4-qjamone-detalle {
+/*  PROPIEDADES */
+height: 17px;
+width: 138px;
+left: 154px;
+top: 1268px;
+border-radius: nullpx;
+
+/*  TIPOGRAPHY  */
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0.5px;
+text-align: left;
+
+/*  CSS */
+position: absolute;
+height: 17px;
+left: 8%;
+right: 80.69%;
+top: calc(50% - 10px/2 + 50px);
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+/* identical to box height */
+letter-spacing: 0.5px;
+color: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.3;
+}
+
+.section-4-h4-qjamone-precio  {
+  height: 25px;
+  width: 53px;
+  left: 154.4453125px;
+  top: 1290px;
+  border-radius: nullpx;
+
+  font-family: Montserrat;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+
+/*  CSS */
+  position: absolute;
+  height: 25px;
+  left: 8.5%;
+  right: 86.28%;
+  top: calc(50% - 25px/2 + 80px);
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 131.02%;
+/* identical to box height, or 25px */
+
+/* linear-primary */
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.section-4-qjamone-button {
+  /*  PROPIEDADES DEL BOTON */
+  height: 29px;
+  width: 85px;
+  left: 175px;
+  top: 170px;
+  border-radius: 17.5px;
+  border-style: none;
+  position: absolute;
+  /*  COLORES DEL BOTON */
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  
+  /*  TYPOGRAPHY  */
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 12px;
+  color: #FFFFFF;   
+}
+
+.section-4-charly {
+/*  PROPIEDADES */
+height: 213px;
+width: 282px;
+left: 776px;
+top: 1120px;
+border-radius: 15px;
+
+/*  COLOR */
+background: #252525;
+
+/*  SHADOWS */
+box-shadow: 0px 0px 50px 0px #01020780;
+
+/*  RECUADRO GRIS */  
+position: absolute;
+width: 282px;
+height: 213px;
+left: 776px;
+top: 1120px;
+
+background: #252525;
+box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+border-radius: 15px;
+}
+
+.section-4-img-charly {
+/*  PROPIEDADES */
+height: 97px;
+width: 237px;
+left: 799px;
+top: 1136px;
+border-radius: 16px;
+
+/*  Photo */
+position: absolute;
+left: 8%;
+right: 74.07%;
+top: 8%;
+bottom: 34.73%;
+
+background: url(pexels-sean-m-166451.jpg);
+mix-blend-mode: normal;
+border-radius: 16px;
+}
+
+.section-4-h3-charly  {
+/*  PROPIEDADES */
+height: 20px;
+width: 123px;
+left: 798px;
+top: 1244px;
+border-radius: nullpx;
+
+/*  TIPOGRAPHY  */
+font-family: Montserrat;
+font-size: 15px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+
+/*  CSS */
+position: absolute;
+height: 20px;
+left: 8%;
+right: 39.09%;
+top: calc(50% - 20px/2 + 30px);
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 131.02%;
+/* identical to box height, or 20px */
+color: #FFFFFF;
+}
+
+.section-4-h4-detalle-charly  {
+/*  PROPIEDADES */
+height: 17px;
+width: 57px;
+left: 798px;
+top: 1268px;
+border-radius: nullpx;
+
+/*  TIPOGRAPHY  */
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0.5px;
+text-align: left;
+
+/*  CSS */
+position: absolute;
+height: 17px;
+left: 8%;
+right: 80.69%;
+top: calc(50% - 10px/2 + 50px);
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+/* identical to box height */
+letter-spacing: 0.5px;
+color: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.3;
+}
+
+.section-4-h4-precio-charly {
+
+  height: 25px;
+  width: 55px;
+  left: 798.45px;
+  top: 1290px;
+  border-radius: nullpx;
+
+  font-family: Montserrat;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+
+/*  CSS */
+  position: absolute;
+  height: 25px;
+  left: 8.5%;
+  right: 43.56%;
+  top: calc(50% - 25px/2 + 80px);
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 131.02%;
+/* identical to box height, or 25px */
+
+/* linear-primary */
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.section-4-charly-button {
+/*  PROPIEDADES DEL BOTON */
+  height: 29px;
+  width: 85px;
+  left: 175px;
+  top: 170px;
+  border-radius: 17.5px;
+  border-style: none;
+  position: absolute;
+  /*  COLORES DEL BOTON */
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  
+/*  TYPOGRAPHY  */
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+
+.section-4-maradona {
+/*  PROPIEDADES */
+height: 213px;
+width: 282px;
+left: 1098px;
+top: 1120px;
+border-radius: 15px;
+
+/*  COLOR */
+background: #252525;
+
+/*  SHADOWS */
+box-shadow: 0px 0px 50px 0px #01020780;
+
+/*  RECUADRO GRIS */  
+position: absolute;
+width: 282px;
+height: 213px;
+left: 1098px;
+top: 1120px;
+
+background: #252525;
+box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+border-radius: 15px;
+}
+
+.section-4-img-maradona {
+/*  PROPIEDADES */
+height: 97px;
+width: 237px;
+left: 1121px;
+top: 1136px;
+border-radius: 16px;
+
+/*  Photo */
+position: absolute;
+left: 8%;
+right: 10.19%;
+top: 8%;
+bottom: 34.73%;
+
+background: url(pexels-ana-madeleine-uribe-2762939.jpg);
+mix-blend-mode: normal;
+border-radius: 16px;
+}
+
+.section-4-h3-maradona  {
+/*  PROPIEDADES */
+height: 20px;
+width: 99px;
+left: 1120px;
+top: 1244px;
+border-radius: nullpx;
+
+/*  TIPOGRAPHY  */
+font-family: Montserrat;
+font-size: 15px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+
+/*  CSS */
+position: absolute;
+height: 20px;
+left: 8%;
+right: 19.38%;
+top: calc(50% - 20px/2 + 30px);
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 131.02%;
+/* identical to box height, or 20px */
+color: #FFFFFF;
+}
+
+.section-4-h4-detalle-maradona  {
+/*  PROPIEDADES */
+height: 17px;
+width: 58px;
+left: 1120px;
+top: 1268px;
+border-radius: nullpx;
+
+/*  TIPOGRAPHY  */
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0.5px;
+text-align: left;
+
+/*  CSS */
+position: absolute;
+height: 17px;
+left: 8%;
+right: 22.09%;
+top: calc(50% - 10px/2 + 50px);
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+/* identical to box height */
+letter-spacing: 0.5px;
+color: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.3;
+}
+
+.section-4-h4-precio-maradona {
+  height: 25px;
+  width: 55px;
+  left: 1120.45px;
+  top: 1290px;
+  border-radius: nullpx;
+
+  font-family: Montserrat;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+
+/*  CSS */
+  position: absolute;
+  height: 25px;
+  left: 8.5%;
+  right: 22.26%;
+  top: calc(50% - 25px/2 + 80px);
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 131.02%;
+/* identical to box height, or 25px */
+
+/* linear-primary */
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.section-4-button-maradona  {
+  /*  PROPIEDADES DEL BOTON */
+height: 29px;
+width: 85px;
+left: 175px;
+top: 170px;
+border-radius: 17.5px;
+border-style: none;
+position: absolute;
+/*  COLORES DEL BOTON */
+background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+
+/*  TYPOGRAPHY  */
+font-weight: 600;
+line-height: 15px;
+letter-spacing: 0.5px;
+text-align: center;
+font-family: 'Montserrat';
+font-style: normal;
+font-size: 12px;
+color: #FFFFFF;
+}
+
+.section-4-picantovich  {
+/*  PROPIEDADES */
+height: 213px;
+width: 282px;
+left: 132px;
+top: 1373px;
+border-radius: 15px;
+
+/*  COLOR */
+background: #252525;
+
+/*  SHADOWS */
+box-shadow: 0px 0px 50px 0px #01020780;
+
+/*  RECUADRO GRIS */  
+position: absolute;
+width: 282px;
+height: 213px;
+left: 132px;
+top: 1373px;
+
+background: #252525;
+box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+border-radius: 15px;
+}
+
+.section-4-img-picantovich  {
+/*  PROPIEDADES */
+height: 97px;
+width: 237px;
+left: 155px;
+top: 1389px;
+border-radius: 16px;
+
+/*  Photo */
+position: absolute;
+left: 8%;
+right: 74.07%;
+top: 8%;
+bottom: 34.73%;
+
+background: url(pexels-engin-akyurt-2619970.jpg);
+mix-blend-mode: normal;
+border-radius: 16px;
+}
+
+.section-4-h3-picantovich {
+/*  PROPIEDADES */
+height: 20px;
+width: 90px;
+left: 154px;
+top: 1497px;
+border-radius: nullpx;
+
+/*  TIPOGRAPHY  */
+font-family: Montserrat;
+font-size: 15px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+
+/*  CSS */
+position: absolute;
+height: 20px;
+left: 8%;
+right: 19.38%;
+top: calc(50% - 20px/2 + 30px);
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 131.02%;
+/* identical to box height, or 20px */
+color: #FFFFFF;
+}
+
+.section-4-h4-detalle-picantovich {
+/*  PROPIEDADES */
+height: 17px;
+width: 91px;
+left: 154px;
+top: 1521px;
+border-radius: nullpx;
+
+/*  TIPOGRAPHY  */
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0.5px;
+text-align: left;
+
+/*  CSS */
+position: absolute;
+height: 17px;
+left: 8%;
+right: 83.89%;
+top: calc(50% - 10px/2 + 50px);
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+/* identical to box height */
+letter-spacing: 0.5px;
+color: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.3;
+}
+
+.section-4-h4-precio-picantovich  {
+  height: 25px;
+  width: 55px;
+  left: 1120.45px;
+  top: 1290px;
+  border-radius: nullpx;
+
+  font-family: Montserrat;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+
+/*  CSS */
+  position: absolute;
+  height: 25px;
+  left: 8.5%;
+  right: 22.26%;
+  top: calc(50% - 25px/2 + 80px);
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 131.02%;
+/* identical to box height, or 25px */
+
+/* linear-primary */
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.section-4-button-picantovich {
+  /*  PROPIEDADES DEL BOTON */
+  height: 29px;
+  width: 85px;
+  left: 175px;
+  top: 170px;
+  border-radius: 17.5px;
+  border-style: none;
+  position: absolute;
+  /*  COLORES DEL BOTON */
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  
+  /*  TYPOGRAPHY  */
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 12px;
+  color: #FFFFFF;  
+}
+
+.section-4-hasbulla {
+/*  PROPIEDADES */
+height: 213px;
+width: 282px;
+left: 454px;
+top: 1373px;
+border-radius: 15px;
+
+/*  COLOR */
+background: #252525;
+
+/*  SHADOWS */
+box-shadow: 0px 0px 50px 0px #01020780;
+
+/*  RECUADRO GRIS */  
+position: absolute;
+width: 282px;
+height: 213px;
+left: 454px;
+top: 1373px;
+
+background: #252525;
+box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+border-radius: 15px;
+}
+
+.section-4-img-hasbulla {
+/*  PROPIEDADES */
+height: 97px;
+width: 237px;
+left: 155px;
+top: 1389px;
+border-radius: 16px;
+
+/*  Photo */
+position: absolute;
+left: 8%;
+right: 74.07%;
+top: 8%;
+bottom: 34.73%;
+
+background: url(pexels-pixabay-280453.jpg);
+mix-blend-mode: normal;
+border-radius: 16px;
+}
+
+.section-4-h3-hasbulla  {
+/*  PROPIEDADES */
+height: 20px;
+width: 90px;
+left: 154px;
+top: 1497px;
+border-radius: nullpx;
+
+/*  TIPOGRAPHY  */
+font-family: Montserrat;
+font-size: 15px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+
+/*  CSS */
+position: absolute;
+height: 20px;
+left: 8%;
+right: 19.38%;
+top: calc(50% - 20px/2 + 30px);
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 131.02%;
+/* identical to box height, or 20px */
+color: #FFFFFF;
+}
+
+.section-4-h4-detalle-hasbulla  {
+/*  PROPIEDADES */
+height: 17px;
+width: 96px;
+left: 154px;
+top: 1521px;
+border-radius: nullpx;
+
+/*  TIPOGRAPHY  */
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0.5px;
+text-align: left;
+
+/*  CSS */
+position: absolute;
+height: 17px;
+left: 8%;
+right: 83.89%;
+top: calc(50% - 10px/2 + 50px);
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+/* identical to box height */
+letter-spacing: 0.5px;
+color: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.3;
+}
+
+.section-4-h4-precio-hasbulla {
+  height: 25px;
+  width: 55px;
+  left: 1120.45px;
+  top: 1290px;
+  border-radius: nullpx;
+
+  font-family: Montserrat;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+
+/*  CSS */
+  position: absolute;
+  height: 25px;
+  left: 8.5%;
+  right: 22.26%;
+  top: calc(50% - 25px/2 + 80px);
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 131.02%;
+/* identical to box height, or 25px */
+
+/* linear-primary */
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.section-4-button-hasbulla  {
+  height: 29px;
+  width: 85px;
+  left: 175px;
+  top: 170px;
+  border-radius: 17.5px;
+  border-style: none;
+  position: absolute;
+  /*  COLORES DEL BOTON */
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  
+  /*  TYPOGRAPHY  */
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 12px;
+  color: #FFFFFF;  
+}
+
+.section-4-messi {
+  /*  PROPIEDADES */
+  height: 213px;
+  width: 282px;
+  left: 776px;
+  top: 1373px;
+  border-radius: 15px;
+  
+  /*  COLOR */
+  background: #252525;
+  
+  /*  SHADOWS */
+  box-shadow: 0px 0px 50px 0px #01020780;
+  
+  /*  RECUADRO GRIS */  
+  position: absolute;
+  width: 282px;
+  height: 213px;
+  left: 776px;
+  top: 1373px;
+  
+  background: #252525;
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
+  }
+  
+  .section-4-img-messi {
+  /*  PROPIEDADES */
+  height: 97px;
+  width: 237px;
+  left: 155px;
+  top: 1389px;
+  border-radius: 16px;
+  
+  /*  Photo */
+  position: absolute;
+  left: 8%;
+  right: 74.07%;
+  top: 8%;
+  bottom: 34.73%;
+  
+  background: url(pexels-sydney-troxell-708587.jpg);
+  mix-blend-mode: normal;
+  border-radius: 16px;
+  }
+  
+  .section-4-h3-messi  {
+  /*  PROPIEDADES */
+  height: 20px;
+  width: 90px;
+  left: 154px;
+  top: 1497px;
+  border-radius: nullpx;
+  
+  /*  TIPOGRAPHY  */
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+  /*  CSS */
+  position: absolute;
+  height: 20px;
+  left: 8%;
+  right: 19.38%;
+  top: calc(50% - 20px/2 + 30px);
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 131.02%;
+  /* identical to box height, or 20px */
+  color: #FFFFFF;
+  }
+  
+.section-4-h4-detalle-messi  {
+  /*  PROPIEDADES */
+  height: 17px;
+  width: 120px;
+  left: 154px;
+  top: 1521px;
+  border-radius: nullpx;
+  
+  /*  TIPOGRAPHY  */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  
+  /*  CSS */
+  position: absolute;
+  height: 17px;
+  left: 8%;
+  right: 83.89%;
+  top: calc(50% - 10px/2 + 50px);
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  
+  /* identical to box height */
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.3;
+  }
+  
+.section-4-h4-precio-messi {
+    height: 25px;
+    width: 55px;
+    left: 1120.45px;
+    top: 1290px;
+    border-radius: nullpx;
+  
+    font-family: Montserrat;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+  
+  /*  CSS */
+    position: absolute;
+    height: 25px;
+    left: 8.5%;
+    right: 22.26%;
+    top: calc(50% - 25px/2 + 80px);
+  
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 131.02%;
+  /* identical to box height, or 25px */
+  
+  /* linear-primary */
+    background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+  
+.section-4-button-messi  {
+    height: 29px;
+    width: 85px;
+    left: 175px;
+    top: 170px;
+    border-radius: 17.5px;
+    border-style: none;
+    position: absolute;
+    /*  COLORES DEL BOTON */
+    background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+    
+    /*  TYPOGRAPHY  */
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 12px;
+    color: #FFFFFF;  
+  }
+
+.section-4-nick {
+    /*  PROPIEDADES */
+    height: 213px;
+    width: 282px;
+    left: 1098px;
+    top: 1373px;
+    border-radius: 15px;
+    
+    /*  COLOR */
+    background: #252525;
+    
+    /*  SHADOWS */
+    box-shadow: 0px 0px 50px 0px #01020780;
+    
+    /*  RECUADRO GRIS */  
+    position: absolute;
+    width: 282px;
+    height: 213px;
+    left: 1098px;
+    top: 1373px;
+    
+    background: #252525;
+    box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+    border-radius: 15px;
+}
+    
+.section-4-img-nick {
+    /*  PROPIEDADES */
+    height: 97px;
+    width: 237px;
+    left: 155px;
+    top: 1389px;
+    border-radius: 16px;
+    
+    /*  Photo */
+    position: absolute;
+    left: 8%;
+    right: 74.07%;
+    top: 8%;
+    bottom: 34.73%;
+    
+    background: url(pexels-sydney-troxell-708587.jpg);
+    mix-blend-mode: normal;
+    border-radius: 16px;
+}
+    
+.section-4-h3-nick  {
+    /*  PROPIEDADES */
+    height: 20px;
+    width: 90px;
+    left: 154px;
+    top: 1497px;
+    border-radius: nullpx;
+    
+    /*  TIPOGRAPHY  */
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    /*  CSS */
+    position: absolute;
+    height: 20px;
+    left: 8%;
+    right: 19.38%;
+    top: calc(50% - 20px/2 + 30px);
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 131.02%;
+    /* identical to box height, or 20px */
+    color: #FFFFFF;
+}
+    
+.section-4-h4-detalle-nick  {
+    /*  PROPIEDADES */
+    height: 17px;
+    width: 141px;
+    left: 154px;
+    top: 1521px;
+    border-radius: nullpx;
+    
+    /*  TIPOGRAPHY  */
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    
+    /*  CSS */
+    position: absolute;
+    height: 17px;
+    left: 8%;
+    right: 83.89%;
+    top: calc(50% - 10px/2 + 50px);
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    
+    /* identical to box height */
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+}
+    
+.section-4-h4-precio-nick {
+      height: 25px;
+      width: 76px;
+      left: 1120.45px;
+      top: 1290px;
+      border-radius: nullpx;
+    
+      font-family: Montserrat;
+      font-size: 19px;
+      font-weight: 700;
+      line-height: 25px;
+      letter-spacing: 0em;
+      text-align: left;
+    
+    /*  CSS */
+      position: absolute;
+      height: 25px;
+      left: 8.5%;
+      right: 22.26%;
+      top: calc(50% - 25px/2 + 80px);
+    
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 19px;
+      line-height: 131.02%;
+    /* identical to box height, or 25px */
+    
+    /* linear-primary */
+      background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+}
+    
+.section-4-button-nick  {
+      height: 29px;
+      width: 85px;
+      left: 175px;
+      top: 170px;
+      border-radius: 17.5px;
+      border-style: none;
+      position: absolute;
+      /*  COLORES DEL BOTON */
+      background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+      
+      /*  TYPOGRAPHY  */
+      font-weight: 600;
+      line-height: 15px;
+      letter-spacing: 0.5px;
+      text-align: center;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-size: 12px;
+      color: #FFFFFF;  
+}
+
+.footer {
+
+}
+
+.footer-h5-terminos-de-uso{
+    /*  PROPIEDADES */
+      height: 22px;
+      width: 142px;
+      left: 534px;
+      top: 1723px;
+      border-radius: nullpx;
+    /*  TYPOGRAPHY  */
+      font-family: Montserrat;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0em;
+      text-align: center;
+      
+      font-family: Montserrat;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0em;
+      text-align: center;
+
+      position: absolute;
+  width: 142px;
+  height: 22px;
+  left: 534px;
+  top: 1723px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 131.02%;
+/* or 22px */
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.footer-h5-trabaja-con-nosotros {
+/*  PROPIEDADES */
+  height: 22px;
+  width: 179px;
+  left: 703px;
+  top: 1723px;
+  border-radius: nullpx;
+
+/*  TYPOGRAPHY  */
+font-family: Montserrat;
+font-size: 17px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+
+position: absolute;
+width: 179px;
+height: 22px;
+left: 703px;
+top: 1723px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 131.02%;
+/* or 22px */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+    
+.footer-h5-soporte  {
+  height: 22px;
+  width: 68px;
+  left: 910px;
+  top: 1723px;
+  border-radius: nullpx;
+
+  font-family: Montserrat;
+font-size: 17px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+
+position: absolute;
+width: 68px;
+height: 22px;
+left: 910px;
+top: 1723px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 131.02%;
+/* or 22px */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.footer-hecho-en-nucbazappi  {
+  height: 22px;
+  width: 267px;
+  left: 623px;
+  top: 1813px;
+  border-radius: nullpx;
+  position: absolute;
+width: 267px;
+height: 22px;
+left: 623px;
+top: 1813px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 131.02%;
+/* or 22px */
+
+text-align: center;
+
+color: #FFFFFF;
+
+font-family: Montserrat;
+font-size: 17px;
+font-weight: 900;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+
+font-family: Montserrat;
+font-size: 17px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.footer-h5-hecho-con-en  {
+  font-family: Montserrat;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  position: absolute;
+width: 267px;
+height: 22px;
+left: 623px;
+top: 1813px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 131.02%;
+/* or 22px */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+    
+.footer-h5-nucbazappi {
+  font-family: Montserrat;
+  font-size: 17px;
+  font-weight: 900;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;   
+  position: absolute;
+width: 267px;
+height: 22px;
+left: 623px;
+top: 1813px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 131.02%;
+/* or 22px */
+
+text-align: center;
+
+color: #FFFFFF; 
+}
+
