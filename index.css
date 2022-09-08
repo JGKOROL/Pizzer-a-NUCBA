@@ -3243,36 +3243,13 @@ BORRAR LINEA PARA REESTABLECER*/
   color: #FFFFFF;
 }
 
-.footer {}
-
 .footer-h5-terminos-de-uso {
-  /*  PROPIEDADES */
-  height: 22px;
-  width: 142px;
-  left: 534px;
-  top: 1723px;
-  border-radius: nullpx;
-  /*  TYPOGRAPHY  */
-  font-family: Montserrat;
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 22px;
   letter-spacing: 0em;
-  text-align: center;
-
-  font-family: Montserrat;
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 22px;
-  letter-spacing: 0em;
-  text-align: center;
-
   position: absolute;
   width: 142px;
   height: 22px;
   left: 534px;
   top: 1723px;
-
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
@@ -3284,68 +3261,36 @@ BORRAR LINEA PARA REESTABLECER*/
 }
 
 .footer-h5-trabaja-con-nosotros {
-  /*  PROPIEDADES */
-  height: 22px;
-  width: 179px;
-  left: 703px;
-  top: 1723px;
-  border-radius: nullpx;
-
-  /*  TYPOGRAPHY  */
-  font-family: Montserrat;
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 22px;
   letter-spacing: 0em;
-  text-align: center;
-
   position: absolute;
   width: 179px;
   height: 22px;
   left: 703px;
   top: 1723px;
-
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
   line-height: 131.02%;
   /* or 22px */
-
   text-align: center;
-
   color: #FFFFFF;
 }
 
 .footer-h5-soporte {
-  height: 22px;
-  width: 68px;
-  left: 910px;
-  top: 1723px;
-  border-radius: nullpx;
-
-  font-family: Montserrat;
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 22px;
   letter-spacing: 0em;
-  text-align: center;
-
   position: absolute;
   width: 68px;
   height: 22px;
   left: 910px;
   top: 1723px;
-
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
   line-height: 131.02%;
   /* or 22px */
-
   text-align: center;
-
   color: #FFFFFF;
 }
 
@@ -3392,14 +3337,11 @@ BORRAR LINEA PARA REESTABLECER*/
   height: 22px;
   left: 623px;
   top: 1813px;
-
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
   line-height: 131.02%;
-
   text-align: center;
-
   color: #FFFFFF;
 }
