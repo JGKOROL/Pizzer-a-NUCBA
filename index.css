@@ -14,6 +14,7 @@ body {
   background-color: #131415;
   /*131415;*/
 }
+
 header {
   display: flex;
   justify-content: space-between;
@@ -21,6 +22,7 @@ header {
   align-items: center;
   padding: 10px;
 }
+
 nav {
   width: 200px;
   display: flex;
@@ -38,7 +40,7 @@ nav {
   padding: 10px;
 }
 
-.header-img-logo  {
+.header-img-logo {
   height: 79px;
   width: 76px;
   left: 65px;
@@ -57,15 +59,15 @@ nav {
 .div-home {
 
   height: 24px;
-width: 74px;
-left: 1179px;
-top: 58px;
-border-radius: 0px;
+  width: 74px;
+  left: 1179px;
+  top: 58px;
+  border-radius: 0px;
 
-position: absolute;
+  position: absolute;
 }
 
-.icon-home  {
+.icon-home {
   height: 20px;
   width: 19px;
   left: 2.5px;
@@ -76,10 +78,10 @@ position: absolute;
   top: 8.33%;
   bottom: 8.33%;
 
-position: absolute;
+  position: absolute;
 }
 
-.font-home { 
+.font-home {
   height: 16px;
   width: 38px;
   left: 40px;
@@ -97,7 +99,7 @@ position: absolute;
   font-family: 'Montserrat';
   font-style: normal;
   line-height: 131.02%;
-/* identical to box height, or 16px */
+  /* identical to box height, or 16px */
   color: #FFFFFF;
 }
 
@@ -105,16 +107,17 @@ position: absolute;
   width: 20px;
   height: 20px;
   align-content: center;
-  
+
   border-radius: 0px;
 
-/*  CSS */
+  /*  CSS */
   position: absolute;
   left: 1320px;
   right: 8.27%;
   top: 60px;
   bottom: 27.13%;
 }
+
 .login {
   width: 20px;
   height: 20px;
@@ -122,19 +125,20 @@ position: absolute;
 
   border-radius: 0px;
 
-/*  CSS */
+  /*  CSS */
   position: absolute;
   left: 1390px;
   right: 8.27%;
   top: 60px;
   bottom: 27.13%;
 }
+
 .section-1 {
   width: 90%;
   height: 200px;
   display: flex;
   flex-direction: column-reverse;
- }
+}
 
 .section-1-div {
   width: 90%;
@@ -142,28 +146,28 @@ position: absolute;
   display: flex;
   flex-direction: column-reverse;
   align-content: center;
- }
+}
 
 
 .section-1-div-h1 {
 
-/* Tiiitle Text */
-position: absolute;
-width: 603px;
-height: 93px;
-left: 127px;
-top: 180px;
+  /* Tiiitle Text */
+  position: absolute;
+  width: 603px;
+  height: 93px;
+  left: 127px;
+  top: 180px;
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 66px;
-line-height: 131.02%;
-/* or 86px */
-color: #FFFFFF;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 66px;
+  line-height: 131.02%;
+  /* or 86px */
+  color: #FFFFFF;
 
-/*  HECHO POR JOHNY */
-/*  width: 40%;
+  /*  HECHO POR JOHNY */
+  /*  width: 40%;
   height: auto;
   left: 103px;
   top: 160px;
@@ -180,7 +184,7 @@ color: #FFFFFF;
 
 .section-1-div-h2 {
 
-/* Tiiitle Text */
+  /* Tiiitle Text */
   position: absolute;
   width: 639px;
   height: 118px;
@@ -195,7 +199,7 @@ color: #FFFFFF;
   /* or 67px */
   color: #FFFFFF;
 
-/*  BORRAR LINEA PARA REESTABLECER
+  /*  BORRAR LINEA PARA REESTABLECER
   height: 118px;
   width: 639px;
   left: 127px;
@@ -204,7 +208,7 @@ color: #FFFFFF;
 
   left: 103px;
   /*top: 235px; */
-/* BORRAR LINEA PARA REESTABLECER
+  /* BORRAR LINEA PARA REESTABLECER
   font-size: 16px;
   line-height: 131.02%;
   margin-left: 100px;
@@ -216,7 +220,7 @@ BORRAR LINEA PARA REESTABLECER*/
 
 /*.section-1-div-h2-2 {
   PROPIEDADES */
-  /*height: 118px;
+/*height: 118px;
   width: 639px;
   left: 127px;
   top: 265px;
@@ -253,13 +257,13 @@ BORRAR LINEA PARA REESTABLECER*/
 } */
 
 .section-1-div-h3 {
-/* Tiiitle Text */
+  /* Tiiitle Text */
   position: absolute;
   width: 639px;
   height: 118px;
   left: 127px;
   top: 360px;
-  
+
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
@@ -270,20 +274,20 @@ BORRAR LINEA PARA REESTABLECER*/
 }
 
 .section-1-button {
-/*  Propiedades */
+  /*  Propiedades */
   height: 50px;
   width: 166px;
   left: 127px;
   top: 417px;
   border-radius: 15px;
 
-/*  Colors  */  
+  /*  Colors  */
   background: linear-gradient(98.81deg, #FFA100 -0.82%, #FB103D 101.53%);
 
-/*  Shadows */
+  /*  Shadows */
   box-shadow: 11px 28px 50px 0px #144E5A33;
 
-/* Rectangle */
+  /* Rectangle */
   position: absolute;
   width: 166px;
   height: 50px;
@@ -292,19 +296,19 @@ BORRAR LINEA PARA REESTABLECER*/
 
   background: linear-gradient(98.81deg, #FFA100 -0.82%, #FB103D 101.53%);
 
-/* Drop Shadow */
+  /* Drop Shadow */
   box-shadow: 11px 28px 50px rgba(20, 78, 90, 0.2);
   border-radius: 15px;
-  
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 17px;
-text-align: center;
-letter-spacing: 0.5px;
 
-color: #FEFEFF;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.5px;
+
+  color: #FEFEFF;
 }
 
 .pizza {
@@ -313,14 +317,14 @@ color: #FEFEFF;
 }
 
 .pizza-1 {
-/*  PROPIEDADES */
+  /*  PROPIEDADES */
   height: 392px;
   width: 392px;
   left: 1046px;
   top: 94px;
   border-radius: 0px;
 
-/* pizza 1 */
+  /* pizza 1 */
   position: absolute;
   width: 392px;
   height: 392px;
@@ -331,14 +335,14 @@ color: #FEFEFF;
 }
 
 .pizza-2 {
-/*  PROPIEDADES */
+  /*  PROPIEDADES */
   height: 265px;
   width: 265px;
   left: 920px;
   top: 208px;
   border-radius: 0px;
 
-/* image 34 */
+  /* image 34 */
   position: absolute;
   width: 265px;
   height: 265px;
@@ -354,14 +358,14 @@ color: #FEFEFF;
 }
 
 .section-2-h2 {
-/*  PROPIEDADES */
+  /*  PROPIEDADES */
   height: 23px;
   width: 278px;
   left: 120px;
   top: 536px;
   border-radius: nullpx;
 
-/*  TIPOGRAFIA  */
+  /*  TIPOGRAFIA  */
   font-family: Montserrat;
   font-size: 22px;
   font-weight: 500;
@@ -369,7 +373,7 @@ color: #FEFEFF;
   letter-spacing: 0em;
   text-align: left;
 
-/* Tiiitle Text */
+  /* Tiiitle Text */
   position: absolute;
   width: 278px;
   height: 23px;
@@ -393,13 +397,13 @@ color: #FEFEFF;
   top: 583px;
   border-radius: 15px;
 
-/*  COLORS  */
+  /*  COLORS  */
   background: #252525;
 
-/*  SHADOWS */
+  /*  SHADOWS */
   box-shadow: 0px 0px 50px 0px #01020780;
 
-/* Rectangulo Section 2 */
+  /* Rectangulo Section 2 */
   position: absolute;
   width: 347px;
   height: 103px;
@@ -412,15 +416,15 @@ color: #FEFEFF;
 }
 
 .bennazianna {
-/*  PROPIEDADES */
+  /*  PROPIEDADES */
   height: 62px;
   width: 62px;
   left: 211px;
   top: 604px;
   border-radius: 16px;
-  
 
-/* Photo Menu */
+
+  /* Photo Menu */
   position: absolute;
   left: 5%;
   right: 81.94%;
@@ -432,25 +436,24 @@ color: #FEFEFF;
   border-radius: 16px;
 }
 
-.section-2-texto-detalles-bennaziana  {
-}
+.section-2-texto-detalles-bennaziana {}
 
 .section-2-h3-r1-bennaziana {
-/*  PROPIEDADES */
+  /*  PROPIEDADES */
   height: 20px;
   width: 101px;
   left: 290.4462890625px;
   top: 602px;
   border-radius: nullpx;
 
-/*  TIPOGRAFIA  */
+  /*  TIPOGRAFIA  */
   font-family: Montserrat;
   font-size: 15px;
   font-weight: 500;
   line-height: 20px;
   letter-spacing: 0em;
   text-align: left;
-/* Menu Name */
+  /* Menu Name */
   position: absolute;
   height: 20px;
   left: 27.5%;
@@ -466,15 +469,15 @@ color: #FEFEFF;
   color: #FFFFFF;
 }
 
-.section-2-h4-r1-detalle  {
-/*  PROPIEDADES */
+.section-2-h4-r1-detalle {
+  /*  PROPIEDADES */
   height: 17px;
   width: 130px;
   left: 290.4462890625px;
   top: 626px;
   border-radius: nullpx;
 
-/*  TIPOGRAFIA  */
+  /*  TIPOGRAFIA  */
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 400;
@@ -482,7 +485,7 @@ color: #FEFEFF;
   letter-spacing: 0.5px;
   text-align: left;
 
-/* Resaturant Name */
+  /* Resaturant Name */
   position: absolute;
   height: 17px;
   left: 27.5%;
@@ -503,14 +506,14 @@ color: #FEFEFF;
 }
 
 .section-2-h4-r1-precio {
-/*  PROPIEDADES */
+  /*  PROPIEDADES */
   height: 25px;
   width: 66px;
   left: 290.8916015625px;
   top: 648px;
   border-radius: nullpx;
 
-/*  TIPOGRAFIA  */
+  /*  TIPOGRAFIA  */
   font-family: Montserrat;
   font-size: 19px;
   font-weight: 700;
@@ -530,8 +533,8 @@ color: #FEFEFF;
   font-weight: 700;
   font-size: 19px;
   line-height: 131.02%;
-/* identical to box height, or 25px */
-/* linear-primary */
+  /* identical to box height, or 25px */
+  /* linear-primary */
   background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -540,7 +543,7 @@ color: #FEFEFF;
 }
 
 .section-2-button-bennazianna {
-/*  PROPIEDADES */
+  /*  PROPIEDADES */
   height: 29px;
   width: 85px;
   left: 442px;
@@ -548,9 +551,9 @@ color: #FEFEFF;
   border-radius: 17.5px;
   border-style: none;
 
-/*  COLORES */
+  /*  COLORES */
   background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
-/* BOTON */
+  /* BOTON */
   position: absolute;
   width: 85px;
   height: 29px;
@@ -560,40 +563,40 @@ color: #FEFEFF;
   background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
   border-radius: 17.5px;
   /*  TYPOGRAPHY  */
-font-weight: 600;
-line-height: 15px;
-letter-spacing: 0.5px;
-text-align: center;
-font-family: 'Montserrat';
-font-style: normal;
-font-size: 12px;
-color: #FFFFFF;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 12px;
+  color: #FFFFFF;
 }
 
 .section-2-recomendados-2 {
   /*  PROPIEDADES */
-    height: 103px;
-    width: 347px;
-    left: 197px;
-    top: 583px;
-    border-radius: 15px;
-  
+  height: 103px;
+  width: 347px;
+  left: 197px;
+  top: 583px;
+  border-radius: 15px;
+
   /*  COLORS  */
-    background: #252525;
-  
+  background: #252525;
+
   /*  SHADOWS */
-    box-shadow: 0px 0px 50px 0px #01020780;
-  
+  box-shadow: 0px 0px 50px 0px #01020780;
+
   /* Rectangulo Section 2 */
-    position: absolute;
-    width: 347px;
-    height: 103px;
-    left: 582px;
-    top: 583px;
-  
-    background: #252525;
-    box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
-    border-radius: 15px;
+  position: absolute;
+  width: 347px;
+  height: 103px;
+  left: 582px;
+  top: 583px;
+
+  background: #252525;
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
 }
 
 .tronco-pizza {
@@ -603,9 +606,9 @@ color: #FFFFFF;
   left: 211px;
   top: 604px;
   border-radius: 16px;
-  
 
-/* Photo Menu */
+
+  /* Photo Menu */
   position: absolute;
   left: 5%;
   right: 81.94%;
@@ -618,21 +621,21 @@ color: #FFFFFF;
 }
 
 .section-2-h3-r2-tronco-pizza {
-/*  PROPIEDADES */
+  /*  PROPIEDADES */
   height: 20px;
   width: 101px;
   left: 290.4462890625px;
   top: 602px;
   border-radius: nullpx;
 
-/*  TIPOGRAFIA  */
+  /*  TIPOGRAFIA  */
   font-family: Montserrat;
   font-size: 15px;
   font-weight: 500;
   line-height: 20px;
   letter-spacing: 0em;
   text-align: left;
-/* Menu Name */
+  /* Menu Name */
   position: absolute;
   height: 20px;
   left: 27.5%;
@@ -648,15 +651,15 @@ color: #FFFFFF;
   color: #FFFFFF;
 }
 
-.section-2-h4-r2-detalle  {
-/*  PROPIEDADES */
+.section-2-h4-r2-detalle {
+  /*  PROPIEDADES */
   height: 17px;
   width: 130px;
   left: 290.4462890625px;
   top: 626px;
   border-radius: nullpx;
 
-/*  TIPOGRAFIA  */
+  /*  TIPOGRAFIA  */
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 400;
@@ -664,7 +667,7 @@ color: #FFFFFF;
   letter-spacing: 0.5px;
   text-align: left;
 
-/* Resaturant Name */
+  /* Resaturant Name */
   position: absolute;
   height: 17px;
   left: 27.5%;
@@ -685,97 +688,97 @@ color: #FFFFFF;
 }
 
 .section-2-h4-r2-precio {
-/*  PROPIEDADES */
-height: 25px;
-width: 66px;
-left: 290.8916015625px;
-top: 648px;
-border-radius: nullpx;
+  /*  PROPIEDADES */
+  height: 25px;
+  width: 66px;
+  left: 290.8916015625px;
+  top: 648px;
+  border-radius: nullpx;
 
-/*  TIPOGRAFIA  */
-font-family: Montserrat;
-font-size: 19px;
-font-weight: 700;
-line-height: 25px;
-letter-spacing: 0em;
-text-align: left;
+  /*  TIPOGRAFIA  */
+  font-family: Montserrat;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
 
-/* Priece */
-position: absolute;
-height: 25px;
-left: 27.5%;
-right: 74.4%;
-top: calc(75% - 10px);
+  /* Priece */
+  position: absolute;
+  height: 25px;
+  left: 27.5%;
+  right: 74.4%;
+  top: calc(75% - 10px);
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 19px;
-line-height: 131.02%;
-/* identical to box height, or 25px */
-/* linear-primary */
-background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-text-fill-color: transparent;  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 131.02%;
+  /* identical to box height, or 25px */
+  /* linear-primary */
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
-.section-2-button-tronco-pizza  {
-/*  PROPIEDADES */
-height: 29px;
-width: 85px;
-left: 442px;
-top: 620px;
-border-radius: 17.5px;
-border-style: none;
+.section-2-button-tronco-pizza {
+  /*  PROPIEDADES */
+  height: 29px;
+  width: 85px;
+  left: 442px;
+  top: 620px;
+  border-radius: 17.5px;
+  border-style: none;
 
-/*  COLORES */
-background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
-/* BOTON */
-position: absolute;
-width: 85px;
-height: 29px;
-left: 245px;
-top: 40px;
+  /*  COLORES */
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  /* BOTON */
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  left: 245px;
+  top: 40px;
 
-background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
-border-radius: 17.5px;
-/*  TYPOGRAPHY  */
-font-weight: 600;
-line-height: 15px;
-letter-spacing: 0.5px;
-text-align: center;
-font-family: 'Montserrat';
-font-style: normal;
-font-size: 12px;
-color: #FFFFFF;
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  border-radius: 17.5px;
+  /*  TYPOGRAPHY  */
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 12px;
+  color: #FFFFFF;
 }
 
 .section-2-recomendados-3 {
-      /*  PROPIEDADES */
-      height: 103px;
-      width: 347px;
-      left: 197px;
-      top: 583px;
-      border-radius: 15px;
-    
-    /*  COLORS  */
-      background: #252525;
-    
-    /*  SHADOWS */
-      box-shadow: 0px 0px 50px 0px #01020780;
-    
-    /* Rectangulo Section 2 */
-      position: absolute;
-      width: 347px;
-      height: 103px;
-      left: 967px;
-      top: 584px;
-    
-      background: #252525;
-      box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
-      border-radius: 15px;
+  /*  PROPIEDADES */
+  height: 103px;
+  width: 347px;
+  left: 197px;
+  top: 583px;
+  border-radius: 15px;
+
+  /*  COLORS  */
+  background: #252525;
+
+  /*  SHADOWS */
+  box-shadow: 0px 0px 50px 0px #01020780;
+
+  /* Rectangulo Section 2 */
+  position: absolute;
+  width: 347px;
+  height: 103px;
+  left: 967px;
+  top: 584px;
+
+  background: #252525;
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
 }
 
 .papas-provenzal {
@@ -785,9 +788,9 @@ color: #FFFFFF;
   left: 211px;
   top: 604px;
   border-radius: 16px;
-  
 
-/* Photo Menu */
+
+  /* Photo Menu */
   position: absolute;
   left: 5%;
   right: 81.94%;
@@ -800,21 +803,21 @@ color: #FFFFFF;
 }
 
 .section-2-h3-r3-papas-provenzal {
-/*  PROPIEDADES */
+  /*  PROPIEDADES */
   height: 20px;
   width: 132px;
   left: 290.4462890625px;
   top: 602px;
   border-radius: nullpx;
 
-/*  TIPOGRAFIA  */
+  /*  TIPOGRAFIA  */
   font-family: Montserrat;
   font-size: 15px;
   font-weight: 500;
   line-height: 20px;
   letter-spacing: 0em;
   text-align: left;
-/* Menu Name */
+  /* Menu Name */
   position: absolute;
   height: 20px;
   left: 27.5%;
@@ -830,15 +833,15 @@ color: #FFFFFF;
   color: #FFFFFF;
 }
 
-.section-2-h4-r3-detalle  {
-/*  PROPIEDADES */
+.section-2-h4-r3-detalle {
+  /*  PROPIEDADES */
   height: 17px;
   width: 130px;
   left: 290.4462890625px;
   top: 626px;
   border-radius: nullpx;
 
-/*  TIPOGRAFIA  */
+  /*  TIPOGRAFIA  */
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 400;
@@ -846,7 +849,7 @@ color: #FFFFFF;
   letter-spacing: 0.5px;
   text-align: left;
 
-/* Resaturant Name */
+  /* Resaturant Name */
   position: absolute;
   height: 17px;
   left: 27.5%;
@@ -867,79 +870,80 @@ color: #FFFFFF;
 }
 
 .section-2-h4-r3-precio {
-/*  PROPIEDADES */
-height: 25px;
-width: 66px;
-left: 290.8916015625px;
-top: 648px;
-border-radius: nullpx;
+  /*  PROPIEDADES */
+  height: 25px;
+  width: 66px;
+  left: 290.8916015625px;
+  top: 648px;
+  border-radius: nullpx;
 
-/*  TIPOGRAFIA  */
-font-family: Montserrat;
-font-size: 19px;
-font-weight: 700;
-line-height: 25px;
-letter-spacing: 0em;
-text-align: left;
+  /*  TIPOGRAFIA  */
+  font-family: Montserrat;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
 
-/* Priece */
-position: absolute;
-height: 25px;
-left: 27.5%;
-right: 74.4%;
-top: calc(75% - 10px);
+  /* Priece */
+  position: absolute;
+  height: 25px;
+  left: 27.5%;
+  right: 74.4%;
+  top: calc(75% - 10px);
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 19px;
-line-height: 131.02%;
-/* identical to box height, or 25px */
-/* linear-primary */
-background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-text-fill-color: transparent;  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 131.02%;
+  /* identical to box height, or 25px */
+  /* linear-primary */
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
-.section-2-button-papas-provenzal  {
-/*  PROPIEDADES */
-height: 29px;
-width: 85px;
-left: 442px;
-top: 620px;
-border-radius: 17.5px;
-border-style: none;
+.section-2-button-papas-provenzal {
+  /*  PROPIEDADES */
+  height: 29px;
+  width: 85px;
+  left: 442px;
+  top: 620px;
+  border-radius: 17.5px;
+  border-style: none;
 
-/*  COLORES */
-background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
-/* BOTON */
-position: absolute;
-width: 85px;
-height: 29px;
-left: 245px;
-top: 40px;
+  /*  COLORES */
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  /* BOTON */
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  left: 245px;
+  top: 40px;
 
-background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
-border-radius: 17.5px;
-/*  TYPOGRAPHY  */
-font-weight: 600;
-line-height: 15px;
-letter-spacing: 0.5px;
-text-align: center;
-font-family: 'Montserrat';
-font-style: normal;
-font-size: 12px;
-color: #FFFFFF;
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  border-radius: 17.5px;
+  /*  TYPOGRAPHY  */
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 12px;
+  color: #FFFFFF;
 }
 
 .section-3 {
   width: 80%;
-  height: 30%;  
+  height: 30%;
 }
 
-.section-3-h2 {   /*  CATEGORÍAS  */
+.section-3-h2 {
+  /*  CATEGORÍAS  */
   /*  PROPIEDADES */
   height: 20px;
   width: 87px;
@@ -948,7 +952,7 @@ color: #FFFFFF;
   border-radius: nullpx;
 
 
-/*  TIPOGRAFIA  */
+  /*  TIPOGRAFIA  */
   font-family: Montserrat;
   font-size: 15px;
   font-weight: 800;
@@ -957,7 +961,7 @@ color: #FFFFFF;
   text-align: left;
 
 
-/* Tiiitle Text */
+  /* Tiiitle Text */
   position: absolute;
   width: 87px;
   height: 20px;
@@ -969,24 +973,24 @@ color: #FFFFFF;
   font-weight: 800;
   font-size: 15px;
   line-height: 131.02%;
-/* identical to box height, or 20px */
-  color: #FFFFFF;  
+  /* identical to box height, or 20px */
+  color: #FFFFFF;
 }
 
 .section-3-categorias-1 {
-/*  PROPIEDADES */
+  /*  PROPIEDADES */
   height: 171px;
   width: 147px;
   left: 116px;
   top: 821px;
   border-radius: 15px;
 
-/*  COLORS  */
+  /*  COLORS  */
   background: #252525;
-/*  SHADOW  */
+  /*  SHADOW  */
   box-shadow: 0px 0px 50px 0px #01020780;
 
-/*  CUADRO GRIS */
+  /*  CUADRO GRIS */
   position: absolute;
   width: 147px;
   height: 171px;
@@ -998,7 +1002,7 @@ color: #FFFFFF;
   border-radius: 15px;
 }
 
-.section-3-img-pizzas-blur  {
+.section-3-img-pizzas-blur {
   /*  PROPIEDADES */
   height: 71px;
   width: 71px;
@@ -1006,28 +1010,28 @@ color: #FFFFFF;
   top: 852px;
   border-radius: 0px;
   opacity: 50%;
-  
+
   /*  IMAGEN  */
   position: absolute;
   width: 71px;
   height: 71px;
   left: 41.5px;
   top: 36px;
-  
+
   background: url(image.png);
   opacity: 0.5;
   filter: blur(10px);
-  }
+}
 
 .section-3-img-pizzas {
-/*  PROPIEDADES */
+  /*  PROPIEDADES */
   height: 71px;
   width: 71px;
   left: 154px;
   top: 846px;
   border-radius: 0px;
 
-/*  IMAGEN  */
+  /*  IMAGEN  */
   position: absolute;
   width: 71px;
   height: 71px;
@@ -1037,18 +1041,17 @@ color: #FFFFFF;
   background: url(image.png);
 }
 
-.section-3-pizzas {
-}
+.section-3-pizzas {}
 
 .section-3-h3-pizzas {
-/*  PROPIEDADES */
+  /*  PROPIEDADES */
   height: 20px;
   width: 47px;
   left: 166px;
   /*top: 938px;*/
   border-radius: nullpx;
 
-/*  TIPOGRAFIA  */
+  /*  TIPOGRAFIA  */
   font-family: Montserrat;
   font-size: 15px;
   font-weight: 400;
@@ -1062,93 +1065,93 @@ color: #FFFFFF;
   height: 20px;
   left: 50px;
   top: 117.5px;
-  
+
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 131.02%;
-/* identical to box height, or 20px */
+  /* identical to box height, or 20px */
   color: #FFFFFF;
 }
 
-.section-3-linea-naranja-pizzas  {
-/*  PROPIEDADES */
-height: 4px;
-width: 24px;
-left: 177px;
-top: 970px;
-border-radius: 15px;
+.section-3-linea-naranja-pizzas {
+  /*  PROPIEDADES */
+  height: 4px;
+  width: 24px;
+  left: 177px;
+  top: 970px;
+  border-radius: 15px;
 
-/*  SOMBRAS */
-box-shadow: 0px 0px 50px 0px #01020780;
+  /*  SOMBRAS */
+  box-shadow: 0px 0px 50px 0px #01020780;
 
-/*  CSS */
-position: absolute;
-width: 24px;
-height: 4px;
-left: 60px;
-top: 149.1px;
+  /*  CSS */
+  position: absolute;
+  width: 24px;
+  height: 4px;
+  left: 60px;
+  top: 149.1px;
 
   /* linear-primary */
-background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
-box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
-border-radius: 15px;
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
 }
 
 .section-3-categorias-2 {
   /*  PROPIEDADES */
-height: 171px;
-width: 147px;
-left: 116px;
-top: 821px;
-border-radius: 15px;
+  height: 171px;
+  width: 147px;
+  left: 116px;
+  top: 821px;
+  border-radius: 15px;
 
-/*  COLORS  */
-background: #252525;
-/*  SHADOW  */
-box-shadow: 0px 0px 50px 0px #01020780;
+  /*  COLORS  */
+  background: #252525;
+  /*  SHADOW  */
+  box-shadow: 0px 0px 50px 0px #01020780;
 
-/*  CUADRO GRIS */
-position: absolute;
-width: 147px;
-height: 171px;
-left: 299px;
-top: 821px;
+  /*  CUADRO GRIS */
+  position: absolute;
+  width: 147px;
+  height: 171px;
+  left: 299px;
+  top: 821px;
 
-background: #252525;
-box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
-border-radius: 15px;
+  background: #252525;
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
 }
 
 .section-3-img-hamburguesas-blur {
   /*  PROPIEDADES */
-    height: 71px;
-    width: 71px;
-    left: 154px;
-    top: 846px;
-    border-radius: 0px;
-    
-  /*  IMAGEN  */
-    position: absolute;
-    width: 85px;
-    height: 85px;
-    left: 35px;
-    top: 25px;
-  
-    background: url(burger);
-    filter: blur(6px);
-  }
-
-.section-3-img-hamburguesas {
-/*  PROPIEDADES */
   height: 71px;
   width: 71px;
   left: 154px;
   top: 846px;
   border-radius: 0px;
-  
-/*  IMAGEN  */
+
+  /*  IMAGEN  */
+  position: absolute;
+  width: 85px;
+  height: 85px;
+  left: 35px;
+  top: 25px;
+
+  background: url(burger);
+  filter: blur(6px);
+}
+
+.section-3-img-hamburguesas {
+  /*  PROPIEDADES */
+  height: 71px;
+  width: 71px;
+  left: 154px;
+  top: 846px;
+  border-radius: 0px;
+
+  /*  IMAGEN  */
   position: absolute;
   width: 85px;
   height: 85px;
@@ -1159,18 +1162,17 @@ border-radius: 15px;
 }
 
 
-.section-3-hamburguesas {
-}
+.section-3-hamburguesas {}
 
-.section-3-h3-hamburguesas  {
-/*  PROPIEDADES */
+.section-3-h3-hamburguesas {
+  /*  PROPIEDADES */
   height: 20px;
   width: 47px;
   left: 166px;
   /*top: 938px;*/
   border-radius: nullpx;
 
-/*  TIPOGRAFIA  */
+  /*  TIPOGRAFIA  */
   font-family: Montserrat;
   font-size: 15px;
   font-weight: 400;
@@ -1178,34 +1180,34 @@ border-radius: 15px;
   letter-spacing: 0em;
   text-align: left;
 
-/*  Hamburguesas  */
+  /*  Hamburguesas  */
   position: absolute;
   width: 47px;
   height: 20px;
   left: 17.5px;
   top: 117.5px;
-  
+
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 131.02%;
-/* identical to box height, or 20px */
+  /* identical to box height, or 20px */
   color: #FFFFFF;
 }
 
-.section-3-linea-naranja-hamburguesas  {
-/*  PROPIEDADES */
+.section-3-linea-naranja-hamburguesas {
+  /*  PROPIEDADES */
   height: 4px;
   width: 24px;
   left: 177px;
   top: 970px;
   border-radius: 15px;
 
-/*  SOMBRAS */
+  /*  SOMBRAS */
   box-shadow: 0px 0px 50px 0px #01020780;
 
-/*  CSS */
+  /*  CSS */
   position: absolute;
   width: 24px;
   height: 4px;
@@ -1219,52 +1221,52 @@ border-radius: 15px;
 }
 
 .section-3-categorias-3 {
-/*  PROPIEDADES */
-height: 171px;
-width: 147px;
-left: 116px;
-top: 821px;
-border-radius: 15px;
+  /*  PROPIEDADES */
+  height: 171px;
+  width: 147px;
+  left: 116px;
+  top: 821px;
+  border-radius: 15px;
 
-/*  COLORS  */
-background: #252525;
-/*  SHADOW  */
-box-shadow: 0px 0px 50px 0px #01020780;
+  /*  COLORS  */
+  background: #252525;
+  /*  SHADOW  */
+  box-shadow: 0px 0px 50px 0px #01020780;
 
-/*  CUADRO GRIS */
-position: absolute;
-width: 147px;
-height: 171px;
-left: 482px;
-top: 821px;
+  /*  CUADRO GRIS */
+  position: absolute;
+  width: 147px;
+  height: 171px;
+  left: 482px;
+  top: 821px;
 
-background: #252525;
-box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
-border-radius: 15px;
+  background: #252525;
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
 }
 
 .section-3-img-napapuki-blur {
   /*  PROPIEDADES */
-    height: 83px;
-    width: 83px;
-    left: 514px;
-    top: 840px;
-    border-radius: 0px;
-  
-  
+  height: 83px;
+  width: 83px;
+  left: 514px;
+  top: 840px;
+  border-radius: 0px;
+
+
   /*  CSS  */
-    position: absolute;
-    width: 83px;
-    height: 83px;
-    left: 33px;
-    top: 26px;
-  
-    background: url(fries);
-    filter: blur(6px);
-  }
+  position: absolute;
+  width: 83px;
+  height: 83px;
+  left: 33px;
+  top: 26px;
+
+  background: url(fries);
+  filter: blur(6px);
+}
 
 .section-3-img-napapuki {
-/*  PROPIEDADES */
+  /*  PROPIEDADES */
   height: 83px;
   width: 83px;
   left: 511px;
@@ -1272,7 +1274,7 @@ border-radius: 15px;
   border-radius: 0px;
 
 
-/*  CSS  */
+  /*  CSS  */
   position: absolute;
   width: 83px;
   height: 83px;
@@ -1282,10 +1284,9 @@ border-radius: 15px;
   background: url(fries);
 }
 
-.section-3-napapuki {
-}
+.section-3-napapuki {}
 
-.section-3-h3-napapuki  {
+.section-3-h3-napapuki {
   /*  PROPIEDADES */
   height: 20px;
   width: 74px;
@@ -1294,7 +1295,7 @@ border-radius: 15px;
   border-radius: nullpx;
 
 
-/*  TIPOGRAFIA  */
+  /*  TIPOGRAFIA  */
   font-family: Montserrat;
   font-size: 15px;
   font-weight: 400;
@@ -1303,7 +1304,7 @@ border-radius: 15px;
   text-align: left;
 
 
-/*  Napapuki  */
+  /*  Napapuki  */
   position: absolute;
   width: 74px;
   height: 20px;
@@ -1315,22 +1316,22 @@ border-radius: 15px;
   font-weight: 400;
   font-size: 15px;
   line-height: 131.02%;
-/* identical to box height, or 20px */
+  /* identical to box height, or 20px */
   color: #FFFFFF;
 }
 
 .section-3-linea-naranja-napapuki {
-/*  PROPIEDADES */
+  /*  PROPIEDADES */
   height: 4px;
   width: 24px;
   left: 177px;
   top: 970px;
   border-radius: 15px;
 
-/*  SOMBRAS */
+  /*  SOMBRAS */
   box-shadow: 0px 0px 50px 0px #01020780;
 
-/*  CSS */
+  /*  CSS */
   position: absolute;
   width: 24px;
   height: 4px;
@@ -1344,19 +1345,19 @@ border-radius: 15px;
 }
 
 .section-3-categorias-4 {
-/*  PROPIEDADES */
+  /*  PROPIEDADES */
   height: 171px;
   width: 147px;
   left: 665px;
   top: 821px;
   border-radius: 15px;
 
-/*  COLORS  */
+  /*  COLORS  */
   background: #252525;
-/*  SHADOW  */
+  /*  SHADOW  */
   box-shadow: 0px 0px 50px 0px #01020780;
 
-/*  CUADRO GRIS */
+  /*  CUADRO GRIS */
   position: absolute;
   width: 147px;
   height: 171px;
@@ -1370,44 +1371,43 @@ border-radius: 15px;
 
 .section-3-img-individuales-blur {
   /*  PROPIEDADES */
-    height: 86px;
-    width: 85px;
-    left: 696px;
-    top: 837px;
-  
+  height: 86px;
+  width: 85px;
+  left: 696px;
+  top: 837px;
+
   /*  CSS  */
-    position: absolute;
-    width: 85px;
-    height: 86px;
-    left: 32px;
-    top: 28px;
-  
-    background: url(pizza.png);
-    filter: blur(4px);  
-  }
+  position: absolute;
+  width: 85px;
+  height: 86px;
+  left: 32px;
+  top: 28px;
+
+  background: url(pizza.png);
+  filter: blur(4px);
+}
 
 .section-3-img-individuales {
-/*  PROPIEDADES */
+  /*  PROPIEDADES */
   height: 86px;
   width: 85px;
   left: 511px;
   top: 837px;
 
-/*  CSS  */
+  /*  CSS  */
   position: absolute;
   width: 85px;
   height: 86px;
   left: 30px;
   top: 25px;
 
-  background: url(pizza.png);  
+  background: url(pizza.png);
 }
 
-.section-3-individuales {
-}
+.section-3-individuales {}
 
-.section-3-h3-individuales  {
-/*  PROPIEDADES */
+.section-3-h3-individuales {
+  /*  PROPIEDADES */
   height: 20px;
   width: 91px;
   left: 693px;
@@ -1415,7 +1415,7 @@ border-radius: 15px;
   border-radius: nullpx;
 
 
-/*  TIPOGRAFIA  */
+  /*  TIPOGRAFIA  */
   font-family: Montserrat;
   font-size: 15px;
   font-weight: 400;
@@ -1424,7 +1424,7 @@ border-radius: 15px;
   text-align: center;
 
 
-/*  Individuales  */
+  /*  Individuales  */
   position: absolute;
   width: 74px;
   height: 20px;
@@ -1436,48 +1436,48 @@ border-radius: 15px;
   font-weight: 400;
   font-size: 15px;
   line-height: 131.02%;
-/* identical to box height, or 20px */
+  /* identical to box height, or 20px */
   color: #FFFFFF;
 }
 
 .section-3-linea-naranja-individuales {
-/*  PROPIEDADES */
+  /*  PROPIEDADES */
   height: 4px;
   width: 24px;
   left: 177px;
   top: 970px;
   border-radius: 15px;
 
-/*  SOMBRAS */
+  /*  SOMBRAS */
   box-shadow: 0px 0px 50px 0px #01020780;
 
-/*  CSS */
+  /*  CSS */
   position: absolute;
   width: 24px;
   height: 4px;
   left: 63px;
   top: 149.1px;
 
-/* linear-primary */
+  /* linear-primary */
   background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
   box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
-  border-radius: 15px;  
+  border-radius: 15px;
 }
 
 .section-3-categorias-5 {
-/*  PROPIEDADES */
+  /*  PROPIEDADES */
   height: 171px;
   width: 147px;
   left: 848px;
   top: 821px;
   border-radius: 15px;
 
-/*  COLORS  */
+  /*  COLORS  */
   background: #252525;
-/*  SHADOW  */
+  /*  SHADOW  */
   box-shadow: 0px 0px 50px 0px #01020780;
 
-/*  CUADRO GRIS */
+  /*  CUADRO GRIS */
   position: absolute;
   width: 147px;
   height: 171px;
@@ -1489,46 +1489,45 @@ border-radius: 15px;
   border-radius: 15px;
 }
 
-.section-3-img-wraps-blur  {
+.section-3-img-wraps-blur {
   /*  PROPIEDADES */
-    height: 86px;
-    width: 86px;
-    left: 880px;
-    top: 839px;
-  
-  /*  CSS  */
-    position: absolute;
-    width: 86px;
-    height: 86px;
-    left: 32px;
-    top: 28px;
-  
-    background: url(buritto.png);
-    filter: blur(4px);
-  }
+  height: 86px;
+  width: 86px;
+  left: 880px;
+  top: 839px;
 
-.section-3-img-wraps  {
-/*  PROPIEDADES */
+  /*  CSS  */
+  position: absolute;
+  width: 86px;
+  height: 86px;
+  left: 32px;
+  top: 28px;
+
+  background: url(buritto.png);
+  filter: blur(4px);
+}
+
+.section-3-img-wraps {
+  /*  PROPIEDADES */
   height: 86px;
   width: 86px;
   left: 878px;
   top: 839px;
 
-/*  CSS  */
+  /*  CSS  */
   position: absolute;
   width: 86px;
   height: 86px;
   left: 30px;
   top: 25px;
 
-  background: url(buritto.png);  
+  background: url(buritto.png);
 }
 
-.section-3-Wraps {
-}
+.section-3-Wraps {}
 
 .section-3-h3-wraps {
-/*  PROPIEDADES */
+  /*  PROPIEDADES */
   height: 20px;
   width: 91px;
   left: 693px;
@@ -1536,7 +1535,7 @@ border-radius: 15px;
   border-radius: nullpx;
 
 
-/*  TIPOGRAFIA  */
+  /*  TIPOGRAFIA  */
   font-family: Montserrat;
   font-size: 15px;
   font-weight: 400;
@@ -1545,7 +1544,7 @@ border-radius: 15px;
   text-align: center;
 
 
-/*  Wraps  */
+  /*  Wraps  */
   position: absolute;
   width: 91px;
   height: 20px;
@@ -1557,32 +1556,32 @@ border-radius: 15px;
   font-weight: 400;
   font-size: 15px;
   line-height: 131.02%;
-/* identical to box height, or 20px */
-  color: #FFFFFF;  
+  /* identical to box height, or 20px */
+  color: #FFFFFF;
 }
 
-.section-3-linea-naranja-wraps  {
-/*  PROPIEDADES */
+.section-3-linea-naranja-wraps {
+  /*  PROPIEDADES */
   height: 4px;
   width: 24px;
   left: 177px;
   top: 970px;
   border-radius: 15px;
 
-/*  SOMBRAS */
+  /*  SOMBRAS */
   box-shadow: 0px 0px 50px 0px #01020780;
 
-/*  CSS */
+  /*  CSS */
   position: absolute;
   width: 24px;
   height: 4px;
   left: 63px;
   top: 149.1px;
 
-/* linear-primary */
+  /* linear-primary */
   background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
   box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
-  border-radius: 15px;   
+  border-radius: 15px;
 }
 
 .section-3-categorias-6 {
@@ -1593,12 +1592,12 @@ border-radius: 15px;
   top: 821px;
   border-radius: 15px;
 
-/*  COLORS  */
+  /*  COLORS  */
   background: #252525;
-/*  SHADOW  */
+  /*  SHADOW  */
   box-shadow: 0px 0px 50px 0px #01020780;
 
-/*  CUADRO GRIS */
+  /*  CUADRO GRIS */
   position: absolute;
   width: 147px;
   height: 171px;
@@ -1612,44 +1611,43 @@ border-radius: 15px;
 
 .section-3-img-mexican-food-blur {
   /*  PROPIEDADES */
-    height: 86px;
-    width: 85px;
-    left: 1062px;
-    top: 842px;
-  
+  height: 86px;
+  width: 85px;
+  left: 1062px;
+  top: 842px;
+
   /*  CSS  */
-    position: absolute;
-    width: 85px;
-    height: 86px;
-    left: 32px;
-    top: 28px;
-  
-    background: url(taco.png);  
-    filter: blur(4px);
-  }
+  position: absolute;
+  width: 85px;
+  height: 86px;
+  left: 32px;
+  top: 28px;
+
+  background: url(taco.png);
+  filter: blur(4px);
+}
 
 .section-3-img-mexican-food {
-/*  PROPIEDADES */
+  /*  PROPIEDADES */
   height: 86px;
   width: 85px;
   left: 1060px;
   top: 839px;
 
-/*  CSS  */
+  /*  CSS  */
   position: absolute;
   width: 85px;
   height: 86px;
   left: 30px;
   top: 25px;
 
-  background: url(taco.png);  
+  background: url(taco.png);
 }
 
-.section-3-mexican-food {
-}
+.section-3-mexican-food {}
 
-.section-3-h3-mexican-food  {
-/*  PROPIEDADES */
+.section-3-h3-mexican-food {
+  /*  PROPIEDADES */
   height: 20px;
   width: 105px;
   left: 1052px;
@@ -1657,7 +1655,7 @@ border-radius: 15px;
   border-radius: nullpx;
 
 
-/*  TIPOGRAFIA  */
+  /*  TIPOGRAFIA  */
   font-family: Montserrat;
   font-size: 15px;
   font-weight: 400;
@@ -1666,7 +1664,7 @@ border-radius: 15px;
   text-align: center;
 
 
-/*  Mexican Food  */
+  /*  Mexican Food  */
   position: absolute;
   width: 105px;
   height: 20px;
@@ -1678,48 +1676,48 @@ border-radius: 15px;
   font-weight: 400;
   font-size: 15px;
   line-height: 131.02%;
-/* identical to box height, or 20px */
-  color: #FFFFFF; 
+  /* identical to box height, or 20px */
+  color: #FFFFFF;
 }
 
 .section-3-linea-naranja-mexican-food {
-/*  PROPIEDADES */
+  /*  PROPIEDADES */
   height: 4px;
   width: 24px;
   left: 177px;
   top: 970px;
   border-radius: 15px;
 
-/*  SOMBRAS */
+  /*  SOMBRAS */
   box-shadow: 0px 0px 50px 0px #01020780;
 
-/*  CSS */
+  /*  CSS */
   position: absolute;
   width: 24px;
   height: 4px;
   left: 63px;
   top: 149.1px;
 
-/* linear-primary */
+  /* linear-primary */
   background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
   box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
-  border-radius: 15px; 
+  border-radius: 15px;
 }
 
 .section-3-categorias-7 {
-/*  PROPIEDADES */
+  /*  PROPIEDADES */
   height: 171px;
   width: 147px;
   left: 1214px;
   top: 821px;
   border-radius: 15px;
 
-/*  COLORS  */
+  /*  COLORS  */
   background: #252525;
-/*  SHADOW  */
+  /*  SHADOW  */
   box-shadow: 0px 0px 50px 0px #01020780;
 
-/*  CUADRO GRIS */
+  /*  CUADRO GRIS */
   position: absolute;
   width: 147px;
   height: 171px;
@@ -1731,154 +1729,153 @@ border-radius: 15px;
   border-radius: 15px;
 }
 
-.section-3-img-batidukis-blur  {
+.section-3-img-batidukis-blur {
   /*  PROPIEDADES */
-    height: 86px;
-    width: 86px;
-    left: 1242px;
-    top: 840px;
-  
-  /*  CSS  */
-    position: absolute;
-    width: 85px;
-    height: 86px;
-    left: 32px;
-    top: 28px;
-  
-    background: url(float.png);
-    filter: blur(4px);
-  }
+  height: 86px;
+  width: 86px;
+  left: 1242px;
+  top: 840px;
 
-.section-3-img-batidukis  {
-/*  PROPIEDADES */
+  /*  CSS  */
+  position: absolute;
+  width: 85px;
+  height: 86px;
+  left: 32px;
+  top: 28px;
+
+  background: url(float.png);
+  filter: blur(4px);
+}
+
+.section-3-img-batidukis {
+  /*  PROPIEDADES */
   height: 86px;
   width: 86px;
   left: 1240px;
   top: 837px;
 
-/*  CSS  */
+  /*  CSS  */
   position: absolute;
   width: 85px;
   height: 86px;
   left: 30px;
   top: 25px;
 
-  background: url(float.png);  
+  background: url(float.png);
 }
 
-.section-3-batidukis {
-}
+.section-3-batidukis {}
 
 .section-3-h3-batidukis {
-/*  PROPIEDADES */
-height: 20px;
-width: 71px;
-left: 1252px;
-top: 938px;
-border-radius: nullpx;
+  /*  PROPIEDADES */
+  height: 20px;
+  width: 71px;
+  left: 1252px;
+  top: 938px;
+  border-radius: nullpx;
 
 
-/*  TIPOGRAFIA  */
-font-family: Montserrat;
-font-size: 15px;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: 0em;
-text-align: center;
+  /*  TIPOGRAFIA  */
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
 
 
-/*  Individuales  */
-position: absolute;
-width: 71px;
-height: 20px;
-left: 40px;
-top: 117.5px;
+  /*  Individuales  */
+  position: absolute;
+  width: 71px;
+  height: 20px;
+  left: 40px;
+  top: 117.5px;
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 131.02%;
-/* identical to box height, or 20px */
-color: #FFFFFF; 
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 131.02%;
+  /* identical to box height, or 20px */
+  color: #FFFFFF;
 }
 
-.section-3-linea-naranja-batidukis  {
-/*  PROPIEDADES */
+.section-3-linea-naranja-batidukis {
+  /*  PROPIEDADES */
   height: 4px;
   width: 24px;
   left: 177px;
   top: 970px;
   border-radius: 15px;
 
-/*  SOMBRAS */
+  /*  SOMBRAS */
   box-shadow: 0px 0px 50px 0px #01020780;
 
-/*  CSS */
+  /*  CSS */
   position: absolute;
   width: 24px;
   height: 4px;
   left: 63px;
   top: 149.1px;
 
-/* linear-primary */
+  /* linear-primary */
   background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
   box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
   border-radius: 15px;
 }
 
-.section-4  {
+.section-4 {
   width: 80%;
   height: 30%;
 }
 
 .section-4-h2 {
-/*  PROPIEDADES */
-height: 23px;
-width: 278px;
-left: 120px;
-top: 1066px;
-border-radius: nullpx;
+  /*  PROPIEDADES */
+  height: 23px;
+  width: 278px;
+  left: 120px;
+  top: 1066px;
+  border-radius: nullpx;
 
-/*  TIPOGRAFIA  */
-font-family: Montserrat;
-font-size: 22px;
-font-weight: 500;
-line-height: 28.83px;
-letter-spacing: 0em;
-text-align: left;
+  /*  TIPOGRAFIA  */
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 28.83px;
+  letter-spacing: 0em;
+  text-align: left;
 
-/* Tiiitle Text */
-position: absolute;
-width: 278px;
-height: 23px;
-left: 120px;
-top: 1066px;
+  /* Tiiitle Text */
+  position: absolute;
+  width: 278px;
+  height: 23px;
+  left: 120px;
+  top: 1066px;
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 22px;
-line-height: 131.02%;
-/* or 29px */
-color: #FFFFFF;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 131.02%;
+  /* or 29px */
+  color: #FFFFFF;
 }
 
-.section-4-mrpit  {
-/*  PROPIEDADES */
+.section-4-mrpit {
+  /*  PROPIEDADES */
   height: 213px;
   width: 282px;
   left: 132px;
   top: 1120px;
   border-radius: 15px;
-  
-/*  COLOR */
+
+  /*  COLOR */
   background: #252525;
 
-/*  SHADOWS */
+  /*  SHADOWS */
   box-shadow: 0px 0px 50px 0px #01020780;
 
-/*  RECUADRO GRIS */  
+  /*  RECUADRO GRIS */
   position: absolute;
   width: 282px;
   height: 213px;
@@ -1890,15 +1887,15 @@ color: #FFFFFF;
   border-radius: 15px;
 }
 
-.section-4-img-mrpit  {
-/*  PROPIEDADES */
+.section-4-img-mrpit {
+  /*  PROPIEDADES */
   height: 97px;
   width: 237px;
   left: 155px;
   top: 1136px;
   border-radius: 16px;
 
-/*  Photo */
+  /*  Photo */
   position: absolute;
   left: 8%;
   right: 74.07%;
@@ -1911,14 +1908,14 @@ color: #FFFFFF;
 }
 
 .section-4-h3-mrpit {
-/*  PROPIEDADES */
+  /*  PROPIEDADES */
   height: 20px;
   width: 71px;
   left: 154px;
   top: 1244px;
   border-radius: nullpx;
 
-/*  TIPOGRAPHY  */
+  /*  TIPOGRAPHY  */
   font-family: Montserrat;
   font-size: 15px;
   font-weight: 500;
@@ -1926,7 +1923,7 @@ color: #FFFFFF;
   letter-spacing: 0em;
   text-align: left;
 
-/*  CSS */
+  /*  CSS */
   position: absolute;
   height: 20px;
   left: 8%;
@@ -1938,19 +1935,19 @@ color: #FFFFFF;
   font-weight: 500;
   font-size: 15px;
   line-height: 131.02%;
-/* identical to box height, or 20px */
+  /* identical to box height, or 20px */
   color: #FFFFFF;
 }
 
 .section-4-h4-mrpit-detalle {
-/*  PROPIEDADES */
+  /*  PROPIEDADES */
   height: 17px;
   width: 138px;
   left: 154px;
   top: 1268px;
   border-radius: nullpx;
 
-/*  TIPOGRAPHY  */
+  /*  TIPOGRAPHY  */
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 400;
@@ -1958,7 +1955,7 @@ color: #FFFFFF;
   letter-spacing: 0.5px;
   text-align: left;
 
-/*  CSS */
+  /*  CSS */
   position: absolute;
   height: 17px;
   left: 8%;
@@ -1978,7 +1975,7 @@ color: #FFFFFF;
   opacity: 0.3;
 }
 
-.section-4-h4-mrpit-precio  {
+.section-4-h4-mrpit-precio {
   height: 25px;
   width: 53px;
   left: 154.4453125px;
@@ -1992,7 +1989,7 @@ color: #FFFFFF;
   letter-spacing: 0em;
   text-align: left;
 
-/*  CSS */
+  /*  CSS */
   position: absolute;
   height: 25px;
   left: 8.5%;
@@ -2004,9 +2001,9 @@ color: #FFFFFF;
   font-weight: 700;
   font-size: 19px;
   line-height: 131.02%;
-/* identical to box height, or 25px */
+  /* identical to box height, or 25px */
 
-/* linear-primary */
+  /* linear-primary */
   background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -2025,7 +2022,7 @@ color: #FFFFFF;
   position: absolute;
   /*  COLORES DEL BOTON */
   background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
-  
+
   /*  TYPOGRAPHY  */
   font-weight: 600;
   line-height: 15px;
@@ -2037,21 +2034,21 @@ color: #FFFFFF;
   color: #FFFFFF;
 }
 
-.section-4-qjamone  {
-/*  PROPIEDADES */
+.section-4-qjamone {
+  /*  PROPIEDADES */
   height: 213px;
   width: 282px;
   left: 454px;
   top: 1120px;
   border-radius: 15px;
-  
-/*  COLOR */
+
+  /*  COLOR */
   background: #252525;
 
-/*  SHADOWS */
+  /*  SHADOWS */
   box-shadow: 0px 0px 50px 0px #01020780;
 
-/*  RECUADRO GRIS */  
+  /*  RECUADRO GRIS */
   position: absolute;
   width: 282px;
   height: 213px;
@@ -2063,35 +2060,35 @@ color: #FFFFFF;
   border-radius: 15px;
 }
 
-.section-4-img-qjamone  {
-/*  PROPIEDADES */
-height: 97px;
-width: 237px;
-left: 477px;
-top: 1136px;
-border-radius: 16px;
+.section-4-img-qjamone {
+  /*  PROPIEDADES */
+  height: 97px;
+  width: 237px;
+  left: 477px;
+  top: 1136px;
+  border-radius: 16px;
 
-/*  Photo */
-position: absolute;
-left: 8%;
-right: 74.07%;
-top: 8%;
-bottom: 34.73%;
+  /*  Photo */
+  position: absolute;
+  left: 8%;
+  right: 74.07%;
+  top: 8%;
+  bottom: 34.73%;
 
-background: url(pexels-eneida-nieves-905847.jpg);
-mix-blend-mode: normal;
-border-radius: 16px;
+  background: url(pexels-eneida-nieves-905847.jpg);
+  mix-blend-mode: normal;
+  border-radius: 16px;
 }
 
 .section-4-h3-qjamone {
-/*  PROPIEDADES */
+  /*  PROPIEDADES */
   height: 20px;
   width: 90px;
   left: 476px;
   top: 1244px;
   border-radius: nullpx;
 
-/*  TIPOGRAPHY  */
+  /*  TIPOGRAPHY  */
   font-family: Montserrat;
   font-size: 15px;
   font-weight: 500;
@@ -2099,7 +2096,7 @@ border-radius: 16px;
   letter-spacing: 0em;
   text-align: left;
 
-/*  CSS */
+  /*  CSS */
   position: absolute;
   height: 20px;
   left: 8%;
@@ -2111,47 +2108,47 @@ border-radius: 16px;
   font-weight: 500;
   font-size: 15px;
   line-height: 131.02%;
-/* identical to box height, or 20px */
+  /* identical to box height, or 20px */
   color: #FFFFFF;
 }
 
 .section-4-h4-qjamone-detalle {
-/*  PROPIEDADES */
-height: 17px;
-width: 138px;
-left: 154px;
-top: 1268px;
-border-radius: nullpx;
+  /*  PROPIEDADES */
+  height: 17px;
+  width: 138px;
+  left: 154px;
+  top: 1268px;
+  border-radius: nullpx;
 
-/*  TIPOGRAPHY  */
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 400;
-line-height: 17px;
-letter-spacing: 0.5px;
-text-align: left;
+  /*  TIPOGRAPHY  */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.5px;
+  text-align: left;
 
-/*  CSS */
-position: absolute;
-height: 17px;
-left: 8%;
-right: 80.69%;
-top: calc(50% - 10px/2 + 50px);
+  /*  CSS */
+  position: absolute;
+  height: 17px;
+  left: 8%;
+  right: 80.69%;
+  top: calc(50% - 10px/2 + 50px);
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
 
-/* identical to box height */
-letter-spacing: 0.5px;
-color: #FFFFFF;
-mix-blend-mode: normal;
-opacity: 0.3;
+  /* identical to box height */
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.3;
 }
 
-.section-4-h4-qjamone-precio  {
+.section-4-h4-qjamone-precio {
   height: 25px;
   width: 53px;
   left: 154.4453125px;
@@ -2165,7 +2162,7 @@ opacity: 0.3;
   letter-spacing: 0em;
   text-align: left;
 
-/*  CSS */
+  /*  CSS */
   position: absolute;
   height: 25px;
   left: 8.5%;
@@ -2177,9 +2174,9 @@ opacity: 0.3;
   font-weight: 700;
   font-size: 19px;
   line-height: 131.02%;
-/* identical to box height, or 25px */
+  /* identical to box height, or 25px */
 
-/* linear-primary */
+  /* linear-primary */
   background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -2198,7 +2195,7 @@ opacity: 0.3;
   position: absolute;
   /*  COLORES DEL BOTON */
   background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
-  
+
   /*  TYPOGRAPHY  */
   font-weight: 600;
   line-height: 15px;
@@ -2207,121 +2204,121 @@ opacity: 0.3;
   font-family: 'Montserrat';
   font-style: normal;
   font-size: 12px;
-  color: #FFFFFF;   
+  color: #FFFFFF;
 }
 
 .section-4-charly {
-/*  PROPIEDADES */
-height: 213px;
-width: 282px;
-left: 776px;
-top: 1120px;
-border-radius: 15px;
+  /*  PROPIEDADES */
+  height: 213px;
+  width: 282px;
+  left: 776px;
+  top: 1120px;
+  border-radius: 15px;
 
-/*  COLOR */
-background: #252525;
+  /*  COLOR */
+  background: #252525;
 
-/*  SHADOWS */
-box-shadow: 0px 0px 50px 0px #01020780;
+  /*  SHADOWS */
+  box-shadow: 0px 0px 50px 0px #01020780;
 
-/*  RECUADRO GRIS */  
-position: absolute;
-width: 282px;
-height: 213px;
-left: 776px;
-top: 1120px;
+  /*  RECUADRO GRIS */
+  position: absolute;
+  width: 282px;
+  height: 213px;
+  left: 776px;
+  top: 1120px;
 
-background: #252525;
-box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
-border-radius: 15px;
+  background: #252525;
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
 }
 
 .section-4-img-charly {
-/*  PROPIEDADES */
-height: 97px;
-width: 237px;
-left: 799px;
-top: 1136px;
-border-radius: 16px;
+  /*  PROPIEDADES */
+  height: 97px;
+  width: 237px;
+  left: 799px;
+  top: 1136px;
+  border-radius: 16px;
 
-/*  Photo */
-position: absolute;
-left: 8%;
-right: 74.07%;
-top: 8%;
-bottom: 34.73%;
+  /*  Photo */
+  position: absolute;
+  left: 8%;
+  right: 74.07%;
+  top: 8%;
+  bottom: 34.73%;
 
-background: url(pexels-sean-m-166451.jpg);
-mix-blend-mode: normal;
-border-radius: 16px;
+  background: url(pexels-sean-m-166451.jpg);
+  mix-blend-mode: normal;
+  border-radius: 16px;
 }
 
-.section-4-h3-charly  {
-/*  PROPIEDADES */
-height: 20px;
-width: 123px;
-left: 798px;
-top: 1244px;
-border-radius: nullpx;
+.section-4-h3-charly {
+  /*  PROPIEDADES */
+  height: 20px;
+  width: 123px;
+  left: 798px;
+  top: 1244px;
+  border-radius: nullpx;
 
-/*  TIPOGRAPHY  */
-font-family: Montserrat;
-font-size: 15px;
-font-weight: 500;
-line-height: 20px;
-letter-spacing: 0em;
-text-align: left;
+  /*  TIPOGRAPHY  */
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
 
-/*  CSS */
-position: absolute;
-height: 20px;
-left: 8%;
-right: 39.09%;
-top: calc(50% - 20px/2 + 30px);
+  /*  CSS */
+  position: absolute;
+  height: 20px;
+  left: 8%;
+  right: 39.09%;
+  top: calc(50% - 20px/2 + 30px);
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 131.02%;
-/* identical to box height, or 20px */
-color: #FFFFFF;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 131.02%;
+  /* identical to box height, or 20px */
+  color: #FFFFFF;
 }
 
-.section-4-h4-detalle-charly  {
-/*  PROPIEDADES */
-height: 17px;
-width: 57px;
-left: 798px;
-top: 1268px;
-border-radius: nullpx;
+.section-4-h4-detalle-charly {
+  /*  PROPIEDADES */
+  height: 17px;
+  width: 57px;
+  left: 798px;
+  top: 1268px;
+  border-radius: nullpx;
 
-/*  TIPOGRAPHY  */
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 400;
-line-height: 17px;
-letter-spacing: 0.5px;
-text-align: left;
+  /*  TIPOGRAPHY  */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.5px;
+  text-align: left;
 
-/*  CSS */
-position: absolute;
-height: 17px;
-left: 8%;
-right: 80.69%;
-top: calc(50% - 10px/2 + 50px);
+  /*  CSS */
+  position: absolute;
+  height: 17px;
+  left: 8%;
+  right: 80.69%;
+  top: calc(50% - 10px/2 + 50px);
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
 
-/* identical to box height */
-letter-spacing: 0.5px;
-color: #FFFFFF;
-mix-blend-mode: normal;
-opacity: 0.3;
+  /* identical to box height */
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.3;
 }
 
 .section-4-h4-precio-charly {
@@ -2339,7 +2336,7 @@ opacity: 0.3;
   letter-spacing: 0em;
   text-align: left;
 
-/*  CSS */
+  /*  CSS */
   position: absolute;
   height: 25px;
   left: 8.5%;
@@ -2351,9 +2348,9 @@ opacity: 0.3;
   font-weight: 700;
   font-size: 19px;
   line-height: 131.02%;
-/* identical to box height, or 25px */
+  /* identical to box height, or 25px */
 
-/* linear-primary */
+  /* linear-primary */
   background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -2362,7 +2359,7 @@ opacity: 0.3;
 }
 
 .section-4-charly-button {
-/*  PROPIEDADES DEL BOTON */
+  /*  PROPIEDADES DEL BOTON */
   height: 29px;
   width: 85px;
   left: 175px;
@@ -2372,8 +2369,8 @@ opacity: 0.3;
   position: absolute;
   /*  COLORES DEL BOTON */
   background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
-  
-/*  TYPOGRAPHY  */
+
+  /*  TYPOGRAPHY  */
   font-weight: 600;
   line-height: 15px;
   letter-spacing: 0.5px;
@@ -2385,117 +2382,117 @@ opacity: 0.3;
 }
 
 .section-4-maradona {
-/*  PROPIEDADES */
-height: 213px;
-width: 282px;
-left: 1098px;
-top: 1120px;
-border-radius: 15px;
+  /*  PROPIEDADES */
+  height: 213px;
+  width: 282px;
+  left: 1098px;
+  top: 1120px;
+  border-radius: 15px;
 
-/*  COLOR */
-background: #252525;
+  /*  COLOR */
+  background: #252525;
 
-/*  SHADOWS */
-box-shadow: 0px 0px 50px 0px #01020780;
+  /*  SHADOWS */
+  box-shadow: 0px 0px 50px 0px #01020780;
 
-/*  RECUADRO GRIS */  
-position: absolute;
-width: 282px;
-height: 213px;
-left: 1098px;
-top: 1120px;
+  /*  RECUADRO GRIS */
+  position: absolute;
+  width: 282px;
+  height: 213px;
+  left: 1098px;
+  top: 1120px;
 
-background: #252525;
-box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
-border-radius: 15px;
+  background: #252525;
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
 }
 
 .section-4-img-maradona {
-/*  PROPIEDADES */
-height: 97px;
-width: 237px;
-left: 1121px;
-top: 1136px;
-border-radius: 16px;
+  /*  PROPIEDADES */
+  height: 97px;
+  width: 237px;
+  left: 1121px;
+  top: 1136px;
+  border-radius: 16px;
 
-/*  Photo */
-position: absolute;
-left: 8%;
-right: 10.19%;
-top: 8%;
-bottom: 34.73%;
+  /*  Photo */
+  position: absolute;
+  left: 8%;
+  right: 10.19%;
+  top: 8%;
+  bottom: 34.73%;
 
-background: url(pexels-ana-madeleine-uribe-2762939.jpg);
-mix-blend-mode: normal;
-border-radius: 16px;
+  background: url(pexels-ana-madeleine-uribe-2762939.jpg);
+  mix-blend-mode: normal;
+  border-radius: 16px;
 }
 
-.section-4-h3-maradona  {
-/*  PROPIEDADES */
-height: 20px;
-width: 99px;
-left: 1120px;
-top: 1244px;
-border-radius: nullpx;
+.section-4-h3-maradona {
+  /*  PROPIEDADES */
+  height: 20px;
+  width: 99px;
+  left: 1120px;
+  top: 1244px;
+  border-radius: nullpx;
 
-/*  TIPOGRAPHY  */
-font-family: Montserrat;
-font-size: 15px;
-font-weight: 500;
-line-height: 20px;
-letter-spacing: 0em;
-text-align: left;
+  /*  TIPOGRAPHY  */
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
 
-/*  CSS */
-position: absolute;
-height: 20px;
-left: 8%;
-right: 19.38%;
-top: calc(50% - 20px/2 + 30px);
+  /*  CSS */
+  position: absolute;
+  height: 20px;
+  left: 8%;
+  right: 19.38%;
+  top: calc(50% - 20px/2 + 30px);
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 131.02%;
-/* identical to box height, or 20px */
-color: #FFFFFF;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 131.02%;
+  /* identical to box height, or 20px */
+  color: #FFFFFF;
 }
 
-.section-4-h4-detalle-maradona  {
-/*  PROPIEDADES */
-height: 17px;
-width: 58px;
-left: 1120px;
-top: 1268px;
-border-radius: nullpx;
+.section-4-h4-detalle-maradona {
+  /*  PROPIEDADES */
+  height: 17px;
+  width: 58px;
+  left: 1120px;
+  top: 1268px;
+  border-radius: nullpx;
 
-/*  TIPOGRAPHY  */
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 400;
-line-height: 17px;
-letter-spacing: 0.5px;
-text-align: left;
+  /*  TIPOGRAPHY  */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.5px;
+  text-align: left;
 
-/*  CSS */
-position: absolute;
-height: 17px;
-left: 8%;
-right: 22.09%;
-top: calc(50% - 10px/2 + 50px);
+  /*  CSS */
+  position: absolute;
+  height: 17px;
+  left: 8%;
+  right: 22.09%;
+  top: calc(50% - 10px/2 + 50px);
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
 
-/* identical to box height */
-letter-spacing: 0.5px;
-color: #FFFFFF;
-mix-blend-mode: normal;
-opacity: 0.3;
+  /* identical to box height */
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.3;
 }
 
 .section-4-h4-precio-maradona {
@@ -2512,7 +2509,7 @@ opacity: 0.3;
   letter-spacing: 0em;
   text-align: left;
 
-/*  CSS */
+  /*  CSS */
   position: absolute;
   height: 25px;
   left: 8.5%;
@@ -2524,9 +2521,9 @@ opacity: 0.3;
   font-weight: 700;
   font-size: 19px;
   line-height: 131.02%;
-/* identical to box height, or 25px */
+  /* identical to box height, or 25px */
 
-/* linear-primary */
+  /* linear-primary */
   background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -2534,144 +2531,144 @@ opacity: 0.3;
   text-fill-color: transparent;
 }
 
-.section-4-button-maradona  {
+.section-4-button-maradona {
   /*  PROPIEDADES DEL BOTON */
-height: 29px;
-width: 85px;
-left: 175px;
-top: 170px;
-border-radius: 17.5px;
-border-style: none;
-position: absolute;
-/*  COLORES DEL BOTON */
-background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  height: 29px;
+  width: 85px;
+  left: 175px;
+  top: 170px;
+  border-radius: 17.5px;
+  border-style: none;
+  position: absolute;
+  /*  COLORES DEL BOTON */
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
 
-/*  TYPOGRAPHY  */
-font-weight: 600;
-line-height: 15px;
-letter-spacing: 0.5px;
-text-align: center;
-font-family: 'Montserrat';
-font-style: normal;
-font-size: 12px;
-color: #FFFFFF;
+  /*  TYPOGRAPHY  */
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 12px;
+  color: #FFFFFF;
 }
 
-.section-4-picantovich  {
-/*  PROPIEDADES */
-height: 213px;
-width: 282px;
-left: 132px;
-top: 1373px;
-border-radius: 15px;
+.section-4-picantovich {
+  /*  PROPIEDADES */
+  height: 213px;
+  width: 282px;
+  left: 132px;
+  top: 1373px;
+  border-radius: 15px;
 
-/*  COLOR */
-background: #252525;
+  /*  COLOR */
+  background: #252525;
 
-/*  SHADOWS */
-box-shadow: 0px 0px 50px 0px #01020780;
+  /*  SHADOWS */
+  box-shadow: 0px 0px 50px 0px #01020780;
 
-/*  RECUADRO GRIS */  
-position: absolute;
-width: 282px;
-height: 213px;
-left: 132px;
-top: 1373px;
+  /*  RECUADRO GRIS */
+  position: absolute;
+  width: 282px;
+  height: 213px;
+  left: 132px;
+  top: 1373px;
 
-background: #252525;
-box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
-border-radius: 15px;
+  background: #252525;
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
 }
 
-.section-4-img-picantovich  {
-/*  PROPIEDADES */
-height: 97px;
-width: 237px;
-left: 155px;
-top: 1389px;
-border-radius: 16px;
+.section-4-img-picantovich {
+  /*  PROPIEDADES */
+  height: 97px;
+  width: 237px;
+  left: 155px;
+  top: 1389px;
+  border-radius: 16px;
 
-/*  Photo */
-position: absolute;
-left: 8%;
-right: 74.07%;
-top: 8%;
-bottom: 34.73%;
+  /*  Photo */
+  position: absolute;
+  left: 8%;
+  right: 74.07%;
+  top: 8%;
+  bottom: 34.73%;
 
-background: url(pexels-engin-akyurt-2619970.jpg);
-mix-blend-mode: normal;
-border-radius: 16px;
+  background: url(pexels-engin-akyurt-2619970.jpg);
+  mix-blend-mode: normal;
+  border-radius: 16px;
 }
 
 .section-4-h3-picantovich {
-/*  PROPIEDADES */
-height: 20px;
-width: 90px;
-left: 154px;
-top: 1497px;
-border-radius: nullpx;
+  /*  PROPIEDADES */
+  height: 20px;
+  width: 90px;
+  left: 154px;
+  top: 1497px;
+  border-radius: nullpx;
 
-/*  TIPOGRAPHY  */
-font-family: Montserrat;
-font-size: 15px;
-font-weight: 500;
-line-height: 20px;
-letter-spacing: 0em;
-text-align: left;
+  /*  TIPOGRAPHY  */
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
 
-/*  CSS */
-position: absolute;
-height: 20px;
-left: 8%;
-right: 19.38%;
-top: calc(50% - 20px/2 + 30px);
+  /*  CSS */
+  position: absolute;
+  height: 20px;
+  left: 8%;
+  right: 19.38%;
+  top: calc(50% - 20px/2 + 30px);
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 131.02%;
-/* identical to box height, or 20px */
-color: #FFFFFF;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 131.02%;
+  /* identical to box height, or 20px */
+  color: #FFFFFF;
 }
 
 .section-4-h4-detalle-picantovich {
-/*  PROPIEDADES */
-height: 17px;
-width: 91px;
-left: 154px;
-top: 1521px;
-border-radius: nullpx;
+  /*  PROPIEDADES */
+  height: 17px;
+  width: 91px;
+  left: 154px;
+  top: 1521px;
+  border-radius: nullpx;
 
-/*  TIPOGRAPHY  */
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 400;
-line-height: 17px;
-letter-spacing: 0.5px;
-text-align: left;
+  /*  TIPOGRAPHY  */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.5px;
+  text-align: left;
 
-/*  CSS */
-position: absolute;
-height: 17px;
-left: 8%;
-right: 83.89%;
-top: calc(50% - 10px/2 + 50px);
+  /*  CSS */
+  position: absolute;
+  height: 17px;
+  left: 8%;
+  right: 83.89%;
+  top: calc(50% - 10px/2 + 50px);
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
 
-/* identical to box height */
-letter-spacing: 0.5px;
-color: #FFFFFF;
-mix-blend-mode: normal;
-opacity: 0.3;
+  /* identical to box height */
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.3;
 }
 
-.section-4-h4-precio-picantovich  {
+.section-4-h4-precio-picantovich {
   height: 25px;
   width: 55px;
   left: 1120.45px;
@@ -2685,7 +2682,7 @@ opacity: 0.3;
   letter-spacing: 0em;
   text-align: left;
 
-/*  CSS */
+  /*  CSS */
   position: absolute;
   height: 25px;
   left: 8.5%;
@@ -2697,9 +2694,9 @@ opacity: 0.3;
   font-weight: 700;
   font-size: 19px;
   line-height: 131.02%;
-/* identical to box height, or 25px */
+  /* identical to box height, or 25px */
 
-/* linear-primary */
+  /* linear-primary */
   background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -2718,7 +2715,7 @@ opacity: 0.3;
   position: absolute;
   /*  COLORES DEL BOTON */
   background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
-  
+
   /*  TYPOGRAPHY  */
   font-weight: 600;
   line-height: 15px;
@@ -2727,121 +2724,121 @@ opacity: 0.3;
   font-family: 'Montserrat';
   font-style: normal;
   font-size: 12px;
-  color: #FFFFFF;  
+  color: #FFFFFF;
 }
 
 .section-4-hasbulla {
-/*  PROPIEDADES */
-height: 213px;
-width: 282px;
-left: 454px;
-top: 1373px;
-border-radius: 15px;
+  /*  PROPIEDADES */
+  height: 213px;
+  width: 282px;
+  left: 454px;
+  top: 1373px;
+  border-radius: 15px;
 
-/*  COLOR */
-background: #252525;
+  /*  COLOR */
+  background: #252525;
 
-/*  SHADOWS */
-box-shadow: 0px 0px 50px 0px #01020780;
+  /*  SHADOWS */
+  box-shadow: 0px 0px 50px 0px #01020780;
 
-/*  RECUADRO GRIS */  
-position: absolute;
-width: 282px;
-height: 213px;
-left: 454px;
-top: 1373px;
+  /*  RECUADRO GRIS */
+  position: absolute;
+  width: 282px;
+  height: 213px;
+  left: 454px;
+  top: 1373px;
 
-background: #252525;
-box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
-border-radius: 15px;
+  background: #252525;
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
 }
 
 .section-4-img-hasbulla {
-/*  PROPIEDADES */
-height: 97px;
-width: 237px;
-left: 155px;
-top: 1389px;
-border-radius: 16px;
+  /*  PROPIEDADES */
+  height: 97px;
+  width: 237px;
+  left: 155px;
+  top: 1389px;
+  border-radius: 16px;
 
-/*  Photo */
-position: absolute;
-left: 8%;
-right: 74.07%;
-top: 8%;
-bottom: 34.73%;
+  /*  Photo */
+  position: absolute;
+  left: 8%;
+  right: 74.07%;
+  top: 8%;
+  bottom: 34.73%;
 
-background: url(pexels-pixabay-280453.jpg);
-mix-blend-mode: normal;
-border-radius: 16px;
+  background: url(pexels-pixabay-280453.jpg);
+  mix-blend-mode: normal;
+  border-radius: 16px;
 }
 
-.section-4-h3-hasbulla  {
-/*  PROPIEDADES */
-height: 20px;
-width: 90px;
-left: 154px;
-top: 1497px;
-border-radius: nullpx;
+.section-4-h3-hasbulla {
+  /*  PROPIEDADES */
+  height: 20px;
+  width: 90px;
+  left: 154px;
+  top: 1497px;
+  border-radius: nullpx;
 
-/*  TIPOGRAPHY  */
-font-family: Montserrat;
-font-size: 15px;
-font-weight: 500;
-line-height: 20px;
-letter-spacing: 0em;
-text-align: left;
+  /*  TIPOGRAPHY  */
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
 
-/*  CSS */
-position: absolute;
-height: 20px;
-left: 8%;
-right: 19.38%;
-top: calc(50% - 20px/2 + 30px);
+  /*  CSS */
+  position: absolute;
+  height: 20px;
+  left: 8%;
+  right: 19.38%;
+  top: calc(50% - 20px/2 + 30px);
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 131.02%;
-/* identical to box height, or 20px */
-color: #FFFFFF;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 131.02%;
+  /* identical to box height, or 20px */
+  color: #FFFFFF;
 }
 
-.section-4-h4-detalle-hasbulla  {
-/*  PROPIEDADES */
-height: 17px;
-width: 96px;
-left: 154px;
-top: 1521px;
-border-radius: nullpx;
+.section-4-h4-detalle-hasbulla {
+  /*  PROPIEDADES */
+  height: 17px;
+  width: 96px;
+  left: 154px;
+  top: 1521px;
+  border-radius: nullpx;
 
-/*  TIPOGRAPHY  */
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 400;
-line-height: 17px;
-letter-spacing: 0.5px;
-text-align: left;
+  /*  TIPOGRAPHY  */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.5px;
+  text-align: left;
 
-/*  CSS */
-position: absolute;
-height: 17px;
-left: 8%;
-right: 83.89%;
-top: calc(50% - 10px/2 + 50px);
+  /*  CSS */
+  position: absolute;
+  height: 17px;
+  left: 8%;
+  right: 83.89%;
+  top: calc(50% - 10px/2 + 50px);
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
 
-/* identical to box height */
-letter-spacing: 0.5px;
-color: #FFFFFF;
-mix-blend-mode: normal;
-opacity: 0.3;
+  /* identical to box height */
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.3;
 }
 
 .section-4-h4-precio-hasbulla {
@@ -2858,7 +2855,7 @@ opacity: 0.3;
   letter-spacing: 0em;
   text-align: left;
 
-/*  CSS */
+  /*  CSS */
   position: absolute;
   height: 25px;
   left: 8.5%;
@@ -2870,9 +2867,9 @@ opacity: 0.3;
   font-weight: 700;
   font-size: 19px;
   line-height: 131.02%;
-/* identical to box height, or 25px */
+  /* identical to box height, or 25px */
 
-/* linear-primary */
+  /* linear-primary */
   background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -2880,7 +2877,7 @@ opacity: 0.3;
   text-fill-color: transparent;
 }
 
-.section-4-button-hasbulla  {
+.section-4-button-hasbulla {
   height: 29px;
   width: 85px;
   left: 175px;
@@ -2890,7 +2887,7 @@ opacity: 0.3;
   position: absolute;
   /*  COLORES DEL BOTON */
   background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
-  
+
   /*  TYPOGRAPHY  */
   font-weight: 600;
   line-height: 15px;
@@ -2899,7 +2896,7 @@ opacity: 0.3;
   font-family: 'Montserrat';
   font-style: normal;
   font-size: 12px;
-  color: #FFFFFF;  
+  color: #FFFFFF;
 }
 
 .section-4-messi {
@@ -2909,53 +2906,53 @@ opacity: 0.3;
   left: 776px;
   top: 1373px;
   border-radius: 15px;
-  
+
   /*  COLOR */
   background: #252525;
-  
+
   /*  SHADOWS */
   box-shadow: 0px 0px 50px 0px #01020780;
-  
-  /*  RECUADRO GRIS */  
+
+  /*  RECUADRO GRIS */
   position: absolute;
   width: 282px;
   height: 213px;
   left: 776px;
   top: 1373px;
-  
+
   background: #252525;
   box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
   border-radius: 15px;
-  }
-  
-  .section-4-img-messi {
+}
+
+.section-4-img-messi {
   /*  PROPIEDADES */
   height: 97px;
   width: 237px;
   left: 155px;
   top: 1389px;
   border-radius: 16px;
-  
+
   /*  Photo */
   position: absolute;
   left: 8%;
   right: 74.07%;
   top: 8%;
   bottom: 34.73%;
-  
+
   background: url(pexels-sydney-troxell-708587.jpg);
   mix-blend-mode: normal;
   border-radius: 16px;
-  }
-  
-  .section-4-h3-messi  {
+}
+
+.section-4-h3-messi {
   /*  PROPIEDADES */
   height: 20px;
   width: 90px;
   left: 154px;
   top: 1497px;
   border-radius: nullpx;
-  
+
   /*  TIPOGRAPHY  */
   font-family: Montserrat;
   font-size: 15px;
@@ -2963,14 +2960,14 @@ opacity: 0.3;
   line-height: 20px;
   letter-spacing: 0em;
   text-align: left;
-  
+
   /*  CSS */
   position: absolute;
   height: 20px;
   left: 8%;
   right: 19.38%;
   top: calc(50% - 20px/2 + 30px);
-  
+
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
@@ -2978,16 +2975,16 @@ opacity: 0.3;
   line-height: 131.02%;
   /* identical to box height, or 20px */
   color: #FFFFFF;
-  }
-  
-.section-4-h4-detalle-messi  {
+}
+
+.section-4-h4-detalle-messi {
   /*  PROPIEDADES */
   height: 17px;
   width: 120px;
   left: 154px;
   top: 1521px;
   border-radius: nullpx;
-  
+
   /*  TIPOGRAPHY  */
   font-family: Montserrat;
   font-size: 14px;
@@ -2995,284 +2992,282 @@ opacity: 0.3;
   line-height: 17px;
   letter-spacing: 0.5px;
   text-align: left;
-  
+
   /*  CSS */
   position: absolute;
   height: 17px;
   left: 8%;
   right: 83.89%;
   top: calc(50% - 10px/2 + 50px);
-  
+
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  
+
   /* identical to box height */
   letter-spacing: 0.5px;
   color: #FFFFFF;
   mix-blend-mode: normal;
   opacity: 0.3;
-  }
-  
+}
+
 .section-4-h4-precio-messi {
-    height: 25px;
-    width: 55px;
-    left: 1120.45px;
-    top: 1290px;
-    border-radius: nullpx;
-  
-    font-family: Montserrat;
-    font-size: 19px;
-    font-weight: 700;
-    line-height: 25px;
-    letter-spacing: 0em;
-    text-align: left;
-  
+  height: 25px;
+  width: 55px;
+  left: 1120.45px;
+  top: 1290px;
+  border-radius: nullpx;
+
+  font-family: Montserrat;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+
   /*  CSS */
-    position: absolute;
-    height: 25px;
-    left: 8.5%;
-    right: 22.26%;
-    top: calc(50% - 25px/2 + 80px);
-  
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 19px;
-    line-height: 131.02%;
+  position: absolute;
+  height: 25px;
+  left: 8.5%;
+  right: 22.26%;
+  top: calc(50% - 25px/2 + 80px);
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 131.02%;
   /* identical to box height, or 25px */
-  
+
   /* linear-primary */
-    background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-  }
-  
-.section-4-button-messi  {
-    height: 29px;
-    width: 85px;
-    left: 175px;
-    top: 170px;
-    border-radius: 17.5px;
-    border-style: none;
-    position: absolute;
-    /*  COLORES DEL BOTON */
-    background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
-    
-    /*  TYPOGRAPHY  */
-    font-weight: 600;
-    line-height: 15px;
-    letter-spacing: 0.5px;
-    text-align: center;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-size: 12px;
-    color: #FFFFFF;  
-  }
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.section-4-button-messi {
+  height: 29px;
+  width: 85px;
+  left: 175px;
+  top: 170px;
+  border-radius: 17.5px;
+  border-style: none;
+  position: absolute;
+  /*  COLORES DEL BOTON */
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+
+  /*  TYPOGRAPHY  */
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 12px;
+  color: #FFFFFF;
+}
 
 .section-4-nick {
-    /*  PROPIEDADES */
-    height: 213px;
-    width: 282px;
-    left: 1098px;
-    top: 1373px;
-    border-radius: 15px;
-    
-    /*  COLOR */
-    background: #252525;
-    
-    /*  SHADOWS */
-    box-shadow: 0px 0px 50px 0px #01020780;
-    
-    /*  RECUADRO GRIS */  
-    position: absolute;
-    width: 282px;
-    height: 213px;
-    left: 1098px;
-    top: 1373px;
-    
-    background: #252525;
-    box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
-    border-radius: 15px;
+  /*  PROPIEDADES */
+  height: 213px;
+  width: 282px;
+  left: 1098px;
+  top: 1373px;
+  border-radius: 15px;
+
+  /*  COLOR */
+  background: #252525;
+
+  /*  SHADOWS */
+  box-shadow: 0px 0px 50px 0px #01020780;
+
+  /*  RECUADRO GRIS */
+  position: absolute;
+  width: 282px;
+  height: 213px;
+  left: 1098px;
+  top: 1373px;
+
+  background: #252525;
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
 }
-    
+
 .section-4-img-nick {
-    /*  PROPIEDADES */
-    height: 97px;
-    width: 237px;
-    left: 155px;
-    top: 1389px;
-    border-radius: 16px;
-    
-    /*  Photo */
-    position: absolute;
-    left: 8%;
-    right: 74.07%;
-    top: 8%;
-    bottom: 34.73%;
-    
-    background: url(pexels-sydney-troxell-708587.jpg);
-    mix-blend-mode: normal;
-    border-radius: 16px;
+  /*  PROPIEDADES */
+  height: 97px;
+  width: 237px;
+  left: 155px;
+  top: 1389px;
+  border-radius: 16px;
+
+  /*  Photo */
+  position: absolute;
+  left: 8%;
+  right: 74.07%;
+  top: 8%;
+  bottom: 34.73%;
+
+  background: url(pexels-sydney-troxell-708587.jpg);
+  mix-blend-mode: normal;
+  border-radius: 16px;
 }
-    
-.section-4-h3-nick  {
-    /*  PROPIEDADES */
-    height: 20px;
-    width: 90px;
-    left: 154px;
-    top: 1497px;
-    border-radius: nullpx;
-    
-    /*  TIPOGRAPHY  */
-    font-family: Montserrat;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 20px;
-    letter-spacing: 0em;
-    text-align: left;
-    
-    /*  CSS */
-    position: absolute;
-    height: 20px;
-    left: 8%;
-    right: 19.38%;
-    top: calc(50% - 20px/2 + 30px);
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 131.02%;
-    /* identical to box height, or 20px */
-    color: #FFFFFF;
+
+.section-4-h3-nick {
+  /*  PROPIEDADES */
+  height: 20px;
+  width: 90px;
+  left: 154px;
+  top: 1497px;
+  border-radius: nullpx;
+
+  /*  TIPOGRAPHY  */
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  /*  CSS */
+  position: absolute;
+  height: 20px;
+  left: 8%;
+  right: 19.38%;
+  top: calc(50% - 20px/2 + 30px);
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 131.02%;
+  /* identical to box height, or 20px */
+  color: #FFFFFF;
 }
-    
-.section-4-h4-detalle-nick  {
-    /*  PROPIEDADES */
-    height: 17px;
-    width: 141px;
-    left: 154px;
-    top: 1521px;
-    border-radius: nullpx;
-    
-    /*  TIPOGRAPHY  */
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 17px;
-    letter-spacing: 0.5px;
-    text-align: left;
-    
-    /*  CSS */
-    position: absolute;
-    height: 17px;
-    left: 8%;
-    right: 83.89%;
-    top: calc(50% - 10px/2 + 50px);
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    
-    /* identical to box height */
-    letter-spacing: 0.5px;
-    color: #FFFFFF;
-    mix-blend-mode: normal;
-    opacity: 0.3;
+
+.section-4-h4-detalle-nick {
+  /*  PROPIEDADES */
+  height: 17px;
+  width: 141px;
+  left: 154px;
+  top: 1521px;
+  border-radius: nullpx;
+
+  /*  TIPOGRAPHY  */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.5px;
+  text-align: left;
+
+  /*  CSS */
+  position: absolute;
+  height: 17px;
+  left: 8%;
+  right: 83.89%;
+  top: calc(50% - 10px/2 + 50px);
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  /* identical to box height */
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.3;
 }
-    
+
 .section-4-h4-precio-nick {
-      height: 25px;
-      width: 76px;
-      left: 1120.45px;
-      top: 1290px;
-      border-radius: nullpx;
-    
-      font-family: Montserrat;
-      font-size: 19px;
-      font-weight: 700;
-      line-height: 25px;
-      letter-spacing: 0em;
-      text-align: left;
-    
-    /*  CSS */
-      position: absolute;
-      height: 25px;
-      left: 8.5%;
-      right: 22.26%;
-      top: calc(50% - 25px/2 + 80px);
-    
-      font-family: 'Montserrat';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 19px;
-      line-height: 131.02%;
-    /* identical to box height, or 25px */
-    
-    /* linear-primary */
-      background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      text-fill-color: transparent;
-}
-    
-.section-4-button-nick  {
-      height: 29px;
-      width: 85px;
-      left: 175px;
-      top: 170px;
-      border-radius: 17.5px;
-      border-style: none;
-      position: absolute;
-      /*  COLORES DEL BOTON */
-      background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
-      
-      /*  TYPOGRAPHY  */
-      font-weight: 600;
-      line-height: 15px;
-      letter-spacing: 0.5px;
-      text-align: center;
-      font-family: 'Montserrat';
-      font-style: normal;
-      font-size: 12px;
-      color: #FFFFFF;  
+  height: 25px;
+  width: 76px;
+  left: 1120.45px;
+  top: 1290px;
+  border-radius: nullpx;
+
+  font-family: Montserrat;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  /*  CSS */
+  position: absolute;
+  height: 25px;
+  left: 8.5%;
+  right: 22.26%;
+  top: calc(50% - 25px/2 + 80px);
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 131.02%;
+  /* identical to box height, or 25px */
+
+  /* linear-primary */
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
-.footer {
+.section-4-button-nick {
+  height: 29px;
+  width: 85px;
+  left: 175px;
+  top: 170px;
+  border-radius: 17.5px;
+  border-style: none;
+  position: absolute;
+  /*  COLORES DEL BOTON */
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
 
+  /*  TYPOGRAPHY  */
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 12px;
+  color: #FFFFFF;
 }
 
-.footer-h5-terminos-de-uso{
-    /*  PROPIEDADES */
-      height: 22px;
-      width: 142px;
-      left: 534px;
-      top: 1723px;
-      border-radius: nullpx;
-    /*  TYPOGRAPHY  */
-      font-family: Montserrat;
-      font-size: 17px;
-      font-weight: 400;
-      line-height: 22px;
-      letter-spacing: 0em;
-      text-align: center;
-      
-      font-family: Montserrat;
-      font-size: 17px;
-      font-weight: 400;
-      line-height: 22px;
-      letter-spacing: 0em;
-      text-align: center;
+.footer {}
 
-      position: absolute;
+.footer-h5-terminos-de-uso {
+  /*  PROPIEDADES */
+  height: 22px;
+  width: 142px;
+  left: 534px;
+  top: 1723px;
+  border-radius: nullpx;
+  /*  TYPOGRAPHY  */
+  font-family: Montserrat;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  font-family: Montserrat;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  position: absolute;
   width: 142px;
   height: 22px;
   left: 534px;
@@ -3283,46 +3278,46 @@ opacity: 0.3;
   font-weight: 400;
   font-size: 17px;
   line-height: 131.02%;
-/* or 22px */
+  /* or 22px */
   text-align: center;
   color: #FFFFFF;
 }
 
 .footer-h5-trabaja-con-nosotros {
-/*  PROPIEDADES */
+  /*  PROPIEDADES */
   height: 22px;
   width: 179px;
   left: 703px;
   top: 1723px;
   border-radius: nullpx;
 
-/*  TYPOGRAPHY  */
-font-family: Montserrat;
-font-size: 17px;
-font-weight: 400;
-line-height: 22px;
-letter-spacing: 0em;
-text-align: center;
+  /*  TYPOGRAPHY  */
+  font-family: Montserrat;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
 
-position: absolute;
-width: 179px;
-height: 22px;
-left: 703px;
-top: 1723px;
+  position: absolute;
+  width: 179px;
+  height: 22px;
+  left: 703px;
+  top: 1723px;
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 17px;
-line-height: 131.02%;
-/* or 22px */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 131.02%;
+  /* or 22px */
 
-text-align: center;
+  text-align: center;
 
-color: #FFFFFF;
+  color: #FFFFFF;
 }
-    
-.footer-h5-soporte  {
+
+.footer-h5-soporte {
   height: 22px;
   width: 68px;
   left: 910px;
@@ -3330,116 +3325,81 @@ color: #FFFFFF;
   border-radius: nullpx;
 
   font-family: Montserrat;
-font-size: 17px;
-font-weight: 400;
-line-height: 22px;
-letter-spacing: 0em;
-text-align: center;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
 
-position: absolute;
-width: 68px;
-height: 22px;
-left: 910px;
-top: 1723px;
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 17px;
-line-height: 131.02%;
-/* or 22px */
-
-text-align: center;
-
-color: #FFFFFF;
-}
-
-.footer-hecho-en-nucbazappi  {
-  height: 22px;
-  width: 267px;
-  left: 623px;
-  top: 1813px;
-  border-radius: nullpx;
   position: absolute;
-width: 267px;
-height: 22px;
-left: 623px;
-top: 1813px;
+  width: 68px;
+  height: 22px;
+  left: 910px;
+  top: 1723px;
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 17px;
-line-height: 131.02%;
-/* or 22px */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 131.02%;
+  /* or 22px */
 
-text-align: center;
+  text-align: center;
 
-color: #FFFFFF;
-
-font-family: Montserrat;
-font-size: 17px;
-font-weight: 900;
-line-height: 22px;
-letter-spacing: 0em;
-text-align: center;
-
-font-family: Montserrat;
-font-size: 17px;
-font-weight: 400;
-line-height: 22px;
-letter-spacing: 0em;
-text-align: center;
-
+  color: #FFFFFF;
 }
 
-.footer-h5-hecho-con-en  {
+.footer-hecho-en-nucbazappi {
+
+  top: 1em;
+  position: absolute;
+  width: 267px;
+  height: 22px;
+  left: 623px;
+  font-style: normal;
+  color: #FFFFFF;
   font-family: Montserrat;
   font-size: 17px;
   font-weight: 400;
   line-height: 22px;
   letter-spacing: 0em;
   text-align: center;
-  position: absolute;
-width: 267px;
-height: 22px;
-left: 623px;
-top: 1813px;
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 17px;
-line-height: 131.02%;
-/* or 22px */
-
-text-align: center;
-
-color: #FFFFFF;
 }
-    
-.footer-h5-nucbazappi {
-  font-family: Montserrat;
-  font-size: 17px;
-  font-weight: 900;
-  line-height: 22px;
+
+.footer-h5-hecho-con-en {
   letter-spacing: 0em;
-  text-align: center;   
+  text-align: center;
   position: absolute;
-width: 267px;
-height: 22px;
-left: 623px;
-top: 1813px;
+  width: 267px;
+  height: 22px;
+  left: 623px;
+  top: 1813px;
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 17px;
-line-height: 131.02%;
-/* or 22px */
-
-text-align: center;
-
-color: #FFFFFF; 
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 131.02%;
+  align-content: center;
+  color: #FFFFFF;
 }
 
+.footer-h5-nucbazappi {
+  letter-spacing: 0em;
+  position: absolute;
+  width: 267px;
+  height: 22px;
+  left: 623px;
+  top: 1813px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 131.02%;
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
